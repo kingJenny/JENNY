@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="Chat_DAO">
+<resultMap type="chatvo" id="chatvoAndNickname">
+		<id property="chat_idx" column="chat_idx" />
+		<result property="to_id" column="to_id" />
+		<result property="from_id" column="from_id" />
+		<result property="content" column="content" />
+		<result property="read" column="read" />
+		<result property="chattime" column="chattime" />
+		<association property="clientDetailInfo" column="clientIdx"
+			javaType="clientDetailInfo">
+			<id property="clientIdx" column="clientIdx" />
+			<result property="nickname" column="nickname" />
+			<result property="photo" column="photo" />
+		</association>
+	</resultMap>
+<select id="selectone_couple" parameterType="coupleDecision" resultType="HashMap">
+	   select clientIdx,otherIdx from coupleDecision where coupleIdx=#{coupleIdx}
+</select>
+
+<insert id="first_insert_chat" parameterType="chatvo">
+	INSERT INTO chatting VALUES(chat_idx_seq.nextVal,#{to_id},#{from_id},#{content},0,sysdate)
+</insert>
+
+<insert id="insert_chat" parameterType="chatvo">
+	INSERT INTO chatting VALUES(chat_idx_seq.nextVal,#{to_id},#{from_id},#{content},0,sysdate)
+</insert>
+
+<select id="selectlist_chatdata" parameterType="chatvo" resultType="chatvo">
+	select * from chatting where (to_id =#{to_id} and from_id=#{from_id}) or(to_id =#{from_id} and from_id=#{to_id}) order by chat_idx
+</select>
+
+<select id="selectlist_chatlist" parameterType="chatvo" resultMap="chatvoAndNickname">
+	select distinct a.from_id,b.nickname,b.photo from chatting a left OUTER JOIN clientDetailInfo b
+   ON (a.from_id = b.clientIdx) where to_id = #{to_id}
+</select>
+
+	<!-- select distinct from_id from chatting where to_id = #{to_id} -->
+
+
+
+
+</mapper>

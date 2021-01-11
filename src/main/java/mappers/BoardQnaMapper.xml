@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="boardQnaDAO">
+	<insert id="add" parameterType="Qna">
+		INSERT into Board VALUES(Board_seq.nextVal,#{clientIdx},#{title},#{content},sysdate,#{boardTypeIdx},#{tingIdx})
+	</insert>
+	<select id="selectQnAList" parameterType="Qna" resultType="Qna">
+		 select * from board where clientIdx=#{clientIdx} and boardtypeIdx=0 order by regDate desc
+	</select>
+	<!-- 팅투데이 게시글 세부내용 출력 -->
+	<select id="getQnABoard" resultType="Qna" >
+		
+		SELECT *
+		FROM Board 
+		WHERE boardIdx = #{boardIdx}
+	</select>
+</mapper>

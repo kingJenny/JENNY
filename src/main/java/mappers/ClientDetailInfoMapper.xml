@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ClientDetailInfoDAO">
+
+	<!-- 회원 상세정보 insert -->
+	<insert id="insertClientDetailInfo" parameterType="clientDetailInfo">
+		INSERT INTO clientDetailInfo (clientIdx, name, nickname,gender,
+		job,age,latitude,longitude,religion,education,height,bodyShape,
+		drink,smoke,selfIntro,lastUpdate,totalheart,character)
+		VALUES(#{clientIdx},
+			#{name},#{nickname},#{gender},#{job},
+			#{age},#{latitude},#{longitude},#{religion}
+			,#{education},#{height}
+			,#{bodyShape},#{drink},#{smoke},#{selfIntro},sysdate,1,#{character})
+	</insert>
+	
+	<!-- 회원 사진 upload -->
+	<update id="updatePhotoClientDetailInfo" parameterType="clientDetailInfo">
+		UPDATE clientDetailInfo SET
+		
+		photo = #{photo}
+		WHERE clientIdx = #{clientIdx}
+	</update>
+	
+	
+	<resultMap type="clientDetailInfo" id="clientDetailInfoAndETC">
+		<id property="clientIdx" column="clientIdx" />
+		<result property="name" column="name" />
+		<result property="nickname" column="nickname" />
+		<result property="gender" column="gender" />
+		<result property="job" column="job" />
+		<result property="age" column="age" />
+		<result property="photo" column="photo" />
+		<result property="religion" column="religion" />
+		<result property="education" column="education" />
+		<result property="height" column="height" />
+		<result property="bodyShape" column="bodyShape" />
+		<result property="drink" column="drink" />
+		<result property="smoke" column="smoke" />
+		<result property="selfIntro" column="selfIntro" />
+		<result property="totalHeart" column="totalHeart" />
+		<result property="character" column="character" />
+		<!--property="sphone" getSphone() column="sabun" => s.sabun sabun javaType="sphonevo" 
+			: 참조하는 실제 VO -->
+		<association property="funvo" column="clientIdx"
+			javaType="funvo">
+			<id property="clientIdx" column="clientIdx" />
+			<result property="Fun_mbti_result" column="Fun_mbti_result" />
+		</association>
+		<association property="charactervo" column="character_Idx"
+			javaType="charactervo">
+			<id property="character_Idx" column="character_Idx" />
+			<result property="character_Type" column="character_Type" />
+			<result property="character_Name" column="character_Name" />
+			<result property="character_Explanation" column="character_Explanation" />
+			<result property="character_Photo" column="character_Photo" />
+		</association>
+	</resultMap>
+	<!-- 회원 상세정보 가져오기 -->
+	<select id="getClientDetailInfo" parameterType="clientDetailInfo" resultMap="clientDetailInfoAndETC">
+		select c.clientIdx, c.name, c.nickname, c.gender,c.job,c.age,c.photo,c.religion
+		,c.education,c.height,c.bodyShape,c.drink,c.smoke,c.selfintro,c.character
+		,c.totalHeart,ch.character_name,ch.character_explanation,ch.character_photo,f.Fun_mbti_result
+		from character ch,clientDetailInfo c  
+        left OUTER JOIN fun_mbti  f               
+        ON (c.clientIdx = f.clientIdx)
+		where c.clientIdx=#{clientIdx} and c.character=ch.character_type
+	</select>
+	
+	<select id="getClientCharacter" parameterType="clientDetailInfo" resultMap="clientDetailInfoAndETC">
+		select c.nickname,ch.character_name,ch.character_explanation,ch.character_photo 
+		from clientdetailinfo c left outer join character ch on #{character}=ch.character_type
+	</select>
+	
+	<select id="getClientlike" parameterType="clientDetailInfo" resultType="int">
+		select count(*) likeget from likereceive where clientIdx=#{clientIdx} and to_char(receivetime,'yyyymmdd')=to_char(sysdate,'yyyymmdd')
+	</select>
+	
+	<!-- 회원 상세정보 수정 -->
+	<update id="updateClientDetailInfo" parameterType="clientDetailInfo">
+		UPDATE clientDetailInfo SET
+		nickname = #{nickname},
+		job = #{job},
+		religion = #{religion},
+		education = #{education},
+		height = #{height},
+		bodyShape = #{bodyShape},
+		drink = #{drink},
+		smoke = #{smoke},
+		selfIntro = #{selfIntro},
+		lastUpdate = sysdate
+		WHERE clientIdx = #{clientIdx}
+	</update>
+	
+	<!--회원 추천 리스트 출력 -->
+	<select id="getClientDetailInfoList"  parameterType="clientDetailInfo" resultType="clientDetailInfo">
+		SELECT clientIdx, name, nickname,gender,
+		job,age,latitude,longitude,religion,education,height,bodyShape,
+		drink,smoke,selfIntro,lastUpdate
+		FROM ClientDetailInfo where gender not like #{gender}
+	</select>
+	
+	<!-- 하트 갯수 -->
+	<select id="getTotalHeart" parameterType="clientDetailInfo" resultType="int">
+		SELECT totalHeart
+		FROM clientDetailInfo
+		WHERE clientIdx = #{clientIdx}
+	</select>
+	
+	<!-- 좋아요 클릭 시 하트 감소 -->
+	<update id="reduceTotalHeart" parameterType="clientDetailInfo">
+		UPDATE clientDetailInfo SET
+		totalHeart = totalHeart-1
+		WHERE clientIdx = #{clientIdx}
+	</update>
+	
+	<!-- 닉네임 중복 확인 -->
+	<select id="nickChk" resultType="int">select count(*) from ClientDetailInfo where nickname = #{nickname} </select>
+	
+	<!-- 매일 아침 9시 하트 증가 -->
+	<update id="increaseTotalHeartPerDay" >
+		UPDATE clientDetailInfo SET
+		totalHeart = totalHeart+1
+	</update>
+	
+	<!-- 같은 타입의 이상형 idx -->
+	<select id="sametypeidx" parameterType="clientDetailInfo" resultType="clientDetailInfo">
+		select tmp.clientidx  from(
+		(select * from clientdetailinfo c 
+		where c.clientidx!=#{clientIdx} and c.gender!=#{gender} and c.character=#{character}) tmp) where rownum=1
+	</select>
+	
+	<!-- 이 외 두명의 이성 idx-->
+	<select id="recommendidx" parameterType="clientDetailInfo" resultType="clientDetailInfo">
+		select tmp.clientidx  from(
+		(select * from clientdetailinfo c 
+		where c.clientIdx not in (select i.recommendedpeopleidx from idealrecommendation i where clientidx=#{clientIdx}) and 
+		c.clientidx!=#{clientIdx} and c.gender!=#{gender} ) tmp) where  rownum between 1 and 2
+	</select>
+	
+	
+</mapper>
