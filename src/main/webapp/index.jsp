@@ -55,7 +55,6 @@
 	</header>
 	<!-- jenny header end -->
 	
-	
 	<!-- jenny main start -->
 	<section id="fh5co-home" data-section="about" style="background-image: url(resources/images/main_img.jpg);" data-stellar-background-ratio="0.5">
 		<div class="gradient"></div>
@@ -115,7 +114,6 @@
 	</section>
 	<!-- jenny main end -->
 	
-	
 	<!-- jenny count start -->
 	<section id="fh5co-counters" style="background-image: url(images/main_back.jpg);" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
@@ -154,7 +152,6 @@
 		</div>
 	</section>
 	<!-- jenny count end -->
-
 
 	<!-- jenny manual start -->
 	<section id="fh5co-work" data-section="team">
@@ -303,8 +300,6 @@
 		</div>
 	</section>
 	<!-- jenny Today end -->
-
-
 	
 	<!-- jenny premium start -->
 	<section id="fh5co-work" data-section="premium">
