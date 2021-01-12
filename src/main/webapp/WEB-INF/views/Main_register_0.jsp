@@ -42,14 +42,14 @@
 	<body class="text-center">
 
 	 <div class="form-signin">
-		<h1 style="color:#52d3aa;margin:0px;">ting</h1>
-		<h2 style="color:#52d3aa;margin:0px;">회원가입</h2>
-		<h3 style="color:#ff8edf;">간편회원가입으로 ting을 만나보세요!</h3>
-		 <p><button class="ui inverted pink button" id="register_1">&nbsp;&nbsp;&nbsp;간편&nbsp;회원&nbsp;가입&nbsp;&nbsp;&nbsp;</button></p>
-
-		<!--  <p><button class="ui inverted yellow button">(임시)&nbsp;카카오톡 연동</button></p>
-		 <p> <button class="ui inverted green button">(임시)&nbsp;&nbsp;&nbsp;네이버 연동</button></p>
-		 <p> <button class="ui inverted red button">(임시)&nbsp;&nbsp;&nbsp;구글 연동&nbsp;&nbsp;</button></p> -->
+		<img class="mb-4" src="resources/images/Jennylogo.png" alt="logo" width="100" height="110" href="index.jsp"><br>
+		<h2 >회원가입</h2>
+		<h3 >간편회원가입으로 Jenny를 만나보세요!</h3><br>
+		 <p><button class="ui purple button" id="register_1">&nbsp;&nbsp;&nbsp;간편&nbsp;회원&nbsp;가입&nbsp;&nbsp;&nbsp;</button></p>
+		 <p>----------------------------</p>
+		 <p><button class="ui yellow button">(임시)&nbsp;카카오톡 연동</button></p>
+		 <p> <button class="ui green button">(임시)&nbsp;&nbsp;&nbsp;네이버 연동</button></p>
+		 <p> <button class="ui red button">(임시)&nbsp;&nbsp;&nbsp;구글 연동&nbsp;&nbsp;</button></p> 
 		 <br><br>
 		 <p><a href="#" target="_blank">이용약관&nbsp;|&nbsp;</a>
 			   <a href="#" target="_blank">개인정보처리방침</a></p>

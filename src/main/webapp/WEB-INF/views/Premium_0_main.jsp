@@ -28,7 +28,7 @@
 }
 </style>
 
-<section id="fh5co-about" >
+<section id="fh5co-about" ><!-- 여기 바꿀것 -->
       <div class="container">
          <div class="row">
             <div class="col-md-12 section-heading text-center">
@@ -37,10 +37,10 @@
                <div class="row">
                   <div class="col-md-8 col-md-offset-2 subtext to-animate">
                      <h1>
-                     <font style="color: #ED4B4E; text-decoration: underline">하트</font>로 운명의 
-                     <font style="color: #688CE3; text-decoration: underline">상대</font>를 찾아보세요!
+                     <font style="color: #610E77; text-decoration: underline">별</font>로  
+                     <font style="color: #610E77; text-decoration: underline">인생친구</font>를 찾아보세요!
                      </h1>
-                     <h4>먼저 용기내어 말을 걸어보는것이 성공의 비결입니다. </h4>
+                  
                   </div>
                </div>
             </div>
@@ -52,16 +52,16 @@
 			<c:forEach items="${GoodsList}" var="goods">	
 				<form class="pay" method="post">			
 						<div class="col-md-4">
-							 <div class="fh5co-person text-center to-animate" style="background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);border-radius: 1em;border:2px solid  #E6E6E6 ">
+							 <div class="fh5co-person text-center to-animate" style="background-image: linear-gradient(-225deg, #C55ADF 0%, #620978 100%);border-radius: 1em;border:2px solid  #620978 ">
                         <input type="hidden" value="${sessionScope.clientIdx}" name="clientIdx">
                         <input type="hidden" value="${goods.goodIdx}" name="goodIdx">       							
 								<input type="hidden" value="resources/images/img_7.jpg" name="poto">
 								<div class="label-popular" style="border-radius: 1em;border:0px solid  #E6E6E6 ">50%할인</div>
-								<input type="hidden" name="heartcnt" value="♥${ goods.heartcnt}개">								
+								<input type="hidden" name="heartcnt" value="★${ goods.heartcnt}개">								
 								<img src="resources/images/buyheart.jpg" width="100px;" height="100px;">
 								<hr>
-                        <p><h2>설렘을 담은, ${goods.goodName }</h2></p> 
-								<p><h3>♥${ goods.heartcnt}개</h3></p>
+                        <p><h2> ${goods.goodName }</h2></p> 
+								<p><h3>★${ goods.heartcnt}개</h3></p>
                         <h2><font style="color: #ED4B4E; text-decoration: underline">${ goods.price}원</font></h2>            
                      <input type="hidden" value="${goods.price}" name="Price">
                         <input class="btn btn-primary btn-lg"  type="submit"  value="결제하기">         
@@ -74,13 +74,13 @@
 			</div>
          <br><br><br><br>
    <div class="fh5co-person text-center to-animate" style="border: 2px solid  #E6E6E6;height: auto;padding: 30px;background-color:#FAFAFA;border-radius: 1em;text-align: left; " > 
-   <h2><font style="color:#688CE3 ;text-decoration: underline">※결제시 참고해주세요!</font></h2><br>
-   <p>▶ 모든 결제상품 금액은 부가세(VAT) 10% 별도입니다.</p>
-   <p>▶ 하트의 이용기한은 적립일로부터 무제한입니다.</p>   
-   <p>▶ 하트를 잘못구매했을시 즉시 문의주시기 바랍니다.</p>
-   <p>▶ 문의 내용은 1주일 이내에 이메일로 발송 됩니다.</p>   
-   <p>▶ 상품 구매후 환불이 불가한 제품입니다.</p>
-   <p>▶ 정기 및 임시 점검시간에는 서비스가 중지 될 수 있습니다.</p>
+   <h2>※ Jenny여러분! 결제시 참고해주세요!</h2><br>
+   <!-- <p>▶ 모든 결제상품 금액은 부가세(VAT) 10% 별도입니다.</p> -->
+   <p>★ 별의 이용기한은 적립일로부터 무제한이니 기한 걱정이 없어요!</p>   
+   <p>★ 상품을 잘못 선택하여 결제한 경우, 바로 문의주세요!</p>
+   <p>★ 문의 내용은 3일 이내에 가입하신 계정의 이메일로 발송 됩니다.</p>   
+   <p>★ 별 결제 후 1개라도 사용했을 경우, 환불이 불가한 점 인지해주세요!</p>
+   <p>★ 정기 및 임시 점검시간에는 서비스가 잠시 지연될 수 있습니다. (미리 공지)</p>
 		</div>
 	</section>
 

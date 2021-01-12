@@ -91,9 +91,9 @@
 
 	<div class="form-signin">
 
-		<h1 style="color: #52d3aa; margin: 0px;">ting</h1>
-		<h2 style="color: #52d3aa; margin: 0px;">회원가입</h2>
-		<h3 style="color: #ff8edf;">모든 항목 필수 입력입니다!</h3>
+		<img class="mb-4" src="resources/images/Jennylogo.png" alt="logo" width="100" height="110" href="index.jsp"><br>
+		<h2 >회원가입</h2>
+		<h3 >모든 항목 필수 입력입니다!</h3>
 
 		<!--===============interlock ajax 추가 삽입필요=================-->
 
@@ -125,7 +125,7 @@
 	   </div> -->
 
 				<div class="field">
-					<button class="ui fluid large teal submit button">회원가입 !</button>
+					<button class="ui fluid large purple submit button">회원가입 !</button>
 					<!--===============submit은 함수사용=================-->
 				</div>
 			</div>

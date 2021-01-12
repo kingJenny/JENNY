@@ -11,11 +11,11 @@
  <form class="ui large form" action="reset_pwd" method="post">
       <div class="ui stacked segment">
       
-      <h1 style="color:#52d3aa;margin:0px;">ting</h1><br>
+      <!--  <img class="mb-4" src="resources/images/Jennylogo.png" alt="logo" width="100" height="110" href="index.jsp"><br> -->
       
-		<h2 style="color:#52d3aa;margin:0px;">비밀번호 재설정</h2>
+		<h2>비밀번호 재설정</h2>
 		
-		<h3 style="color:#000000;">안전한 비밀번호를 만들어주세요. </h3>
+		<h3>안전한 비밀번호를 만들어주세요. </h3>
 		
       
       
@@ -34,7 +34,7 @@
 	  </ul>
     </div>
         <div class="field" style="padding-top: 15px">
-           <input type="submit" class="ui fluid large teal submit button" value="변경">
+           <input type="submit" class="ui fluid large purple submit button" value="변경">
 	        
       </div>
 	</div>

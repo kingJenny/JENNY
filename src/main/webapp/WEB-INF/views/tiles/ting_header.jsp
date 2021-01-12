@@ -19,14 +19,14 @@
 			<script src="resources/js/modernizr-2.6.2.min.js"></script>
 			<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 			<script src="resources/js/semantic.min.js"></script>
-			<style>
+			<!-- <style>
 			.ui inverted teal button {
 			
-			background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+			background-image: linear-gradient(45deg, #CB5DE7 0%, #66077E 99%, #66077E 100%);
 			color:#464646
 			
 			
-			}
+			} -->
 			
 			</style>
 <style>
