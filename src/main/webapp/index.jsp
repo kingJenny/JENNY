@@ -38,13 +38,13 @@
 						 <c:choose>
 						 
 							<c:when test="${sessionScope.UID eq null}">
-							<li><button class="ui inverted brown button" id="login">로그인</button></li>
-							<li><button class="ui inverted brown button" id="register">회원가입</button></li>
+							<li><button class="ui purple button" id="login">로그인</button></li>
+							<li><button class="ui purple button" id="register">회원가입</button></li>
 							</c:when>
 							
 							<c:otherwise>
-							<li><button class="ui inverted brown button" id="logout">로그아웃</button></li>
-							<li><button class="ui inverted brown button" id="go_mypage">마이페이지</button></li>
+							<li><button class="ui purple button" id="logout">로그아웃</button></li>
+							<li><button class="ui purple button" id="go_mypage">마이페이지</button></li>
 							</c:otherwise>
 						</c:choose>
 						
@@ -115,7 +115,7 @@
 	<!-- jenny main end -->
 	
 	<!-- jenny count start -->
-	<section id="fh5co-counters" style="background-image: url(images/main_back.jpg);" data-stellar-background-ratio="0.5">
+	<section id="fh5co-counters" style="background-image: url(resources/images/background2.jpg);" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -245,11 +245,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">제티하자 ! Jenny TODAY!</h2>
+					<!--  -->
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h2 style="color:#8A6109"> Jenny들과 소소한 하루를 나눠보아요!</h2>
-							<button class="ui inverted brown button" id="go_tingtoday">now Jenny TODAY!</button>
+							<h2 class="to-animate" style="color:#8d08ae">제티하자 ! Jenny TODAY!</h2><p>
+							<h3 style="color:#D877F1"> Jenny들과 소소한 하루를 나눠보아요!</h3>
+							<button class="ui inverted purple button" id="go_tingtoday">now Jenny TODAY!</button>
 					</div>
 				</div>
 			</div>
@@ -309,7 +310,7 @@
 					<h2 class="to-animate">Premium</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h1>매일 주어지는 선택권(★)은 단 한 장!<p>star로 원하는만큼 친구를 고를 수 있어요!</h1>
+							<h1 style="color:#F8EFFA">매일 주어지는 선택권(★)은 단 한 장!<p>star로 원하는만큼 친구를 고를 수 있어요!</h1>
 							<p><h3><a href="Premium_0_main ">구매하러가기</a></h3></p>
 						</div>
 					</div>
@@ -318,7 +319,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="resources/images/week.png" alt="Image"></figure>
+						<figure><img src="resources/images/premium.png" alt="Image"></figure>
 						<h2>7 일</h2>
 						<p>하루 Jenny Card: 6개</p>
 						<p>+ 플러스 혜택</p>
@@ -327,7 +328,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="resources/images/month.png" alt="Image"></figure>
+						<figure><img src="resources/images/premium.png" alt="Image"></figure>
 						<h2>30 일</h2>
 						<p>하루 Jenny Card: 6개</p>
 						<p>+ 플러스플러스 혜택</p>
@@ -336,7 +337,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="resources/images/year.png" alt="Image"></figure>
+						<figure><img src="resources/images/premium.png" alt="Image"></figure>
 						<h2>365 일</h2>
 						<p>하루 Jenny Card: 6개</p>
 						<p>+ 왕플러스 혜택</p>
@@ -367,7 +368,7 @@
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate" >
 					<h2> MBTI 테스트</h2>
 					<p>요즘은 MBTI가 대세잖아요? 테스트하면 알고리즘에 반영돼요!</p>
-					<button class="ui brown button goFun" id="goFUN">go FUN >></button>
+					<button class="ui purple button" id="goFUN">go FUN >></button>
 					<p><br><br></p>
 				</div>
 			</li>
@@ -376,7 +377,7 @@
 				
 					<h2>우정테스트  </h2>
 					<p>내가 원하는 친구타입은? 테스트하면 취향맞는 친구가 추천될 확률 UP!</p>
-					<button class="ui brown button goFun" id="goFUN">go FUN >></button>
+					<button class="ui purple button" id="goFUN">go FUN >></button>
 					<p><br><br></p>
 				</div>
 			</li>
@@ -387,7 +388,7 @@
 	<!-- jenny FUN end -->
 	
 	<!-- 중간 여백 사진 -->
-	<section id="fh5co-counters" style="background-image: url(resources/images/main_back.jpg);" data-stellar-background-ratio="0.5">
+	<section id="fh5co-counters" style="background-image: url(resources/images/background2.jpg);" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
 	</section>
 	
@@ -408,13 +409,12 @@
 				<div class="col-md-6 to-animate">
 					<h3>Jenny Info</h3>
 					<ul class="fh5co-contact-info"> 
-						<li class="fh5co-contact-address " >
+						<li class="fh5co-contact-address " style="color:#8D08AE">
 							<i class="icon-home" ></i>
 							부천시 소사구 심곡본동
 						</li>
-						<li><i class="icon-phone"></i> 010 - 4243 - 1338 </li>
-						<li><i class="icon-envelope"></i>jennymaster2020@gmail.com</li>
-						<li><i class="icon-globe"></i> <a href="#">Jenny.co</a></li>
+						<li style="color:#8D08AE"><i class="icon-phone"></i> 010 - 4243 - 1338 </li>
+						<li style="color:#8D08AE"><i class="icon-envelope"></i>jennymaster2020@gmail.com</li>
 					</ul>
 				</div>
 				<div class="col-md-6 to-animate" >
@@ -447,7 +447,7 @@
 		
 		<!-- main footer start -->	
 	<footer id="footer" role="contentinfo">
-		<a href="#" class="gotop js-gotop">To<i class="icon-arrow-up2">Top</i></a>
+		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2">Top</i></a>
 		<br><br>
 		<div class="container">
 			<div class="">

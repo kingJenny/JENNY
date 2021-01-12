@@ -43,8 +43,9 @@
 
 	 <div class="form-signin">
 		<form role="form" action="${pageContext.request.contextPath}/login" method="POST">
-			<h1 style="color:#52d3aa;margin:0px;">ting</h1><br>
-			<h2 style="color:#52d3aa;margin:0px;">로그인</h2><br><br>
+		
+			<img class="mb-4" src="resources/images/Jennylogo.png" alt="logo" width="100" height="110" href="index.jsp"><br>
+			
 			<h3>${msg}</h3>
 			<div>
 						<div class="form-group ">
@@ -70,9 +71,7 @@
 
  <div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">OR</div><br>
 
-		<!--  <p><button class="ui inverted yellow button">(임시)&nbsp;카카오톡 로그인</button></p>
-		 <p> <button class="ui inverted green button">(임시)&nbsp;&nbsp;&nbsp;네이버 로그인</button></p>
-		 <p> <button class="ui inverted red button">(임시)&nbsp;&nbsp;&nbsp;구글 로그인&nbsp;&nbsp;</button></p> -->
+
 		 <br><br>
 		 <p><a href="#" target="_blank">이용약관&nbsp;|&nbsp;</a>
 			   <a href="#" target="_blank">개인정보처리방침</a></p>
