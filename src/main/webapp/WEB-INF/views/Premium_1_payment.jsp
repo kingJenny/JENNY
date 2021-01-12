@@ -65,7 +65,7 @@
 							<div class="ui form" style="padding-left: 25%;padding-top:20%;">				     
 							 <div class="inline fields" align="center">  								
 									<div class="ui radio checkbox" align="center">
-										<img src="resources/images/buyheart.jpg" width="100px;" height="100px;">								
+										<img src="resources/images/premium.png" width="100px;" height="100px;">								
 										<h4 align="center"><%=heartcnt %></h4><br>	
 										<input  type="hidden" name="totalPrice" value="<%=Price %>" style="text-align:center">
 									</div>

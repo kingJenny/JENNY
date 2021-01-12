@@ -154,8 +154,7 @@
 <body>
 	<body>
 		<div class="container-fluid h-100">
-		<button class="btn btn-lg"  style="background-image: linear-gradient(45deg, white 0%, #fad0c4 99%, white 100%);color:#464646" id=""
-										style="padding: 15px 30px; font-size: 16px;"  onclick="location.href='../Client_0_main'">마이페이지로 돌아가기</button>
+		<button class="btn btn-lg" style="color:purple;"onclick="location.href='../Client_0_main'">◀ ◀ 마이페이지로 돌아가기</button>
 			<div class="row justify-content-center h-100">
 			
 			

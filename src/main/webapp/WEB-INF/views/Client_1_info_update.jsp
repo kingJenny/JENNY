@@ -41,28 +41,28 @@ select::-ms-expand {
       <div class="container">
          <div class=" section-heading text-center">
             <div align="center"
-               style="width: 70%; height: auto; border: 1px solid #E6E6E6; border-radius: 1em; margin: 0 auto; margin-top: 50px; padding-bottom: 50px;">
+               style="width: 70%; height: auto; border: 1px solid #E5AFF3; border-radius: 1em; margin: 0 auto; margin-top: 50px; padding-bottom: 50px;">
 
-               <div class="ui compact menu" style="float: right; border: 1px solid #E6E6E6; border-radius: 1em;border-style: none;">
+               <div class="ui compact menu" style="float: right; border: 1px solid #E5AFF3; border-radius: 1em;border-style: none;">
                   <div class="ui simple dropdown item">
                      <font _mstmutation="1" _msthash="2126644" _msttexthash="21094424">
                         도움말 / 지원 </font><i class="dropdown icon"></i>
                      <div class="menu">
-                        <div class="item" _msthash="3034434" _msttexthash="10065549">선택1
+                        <div class="item" _msthash="3034434" _msttexthash="10065549">-----------
                         </div>
                         <div class="item" _msthash="3035396" _msttexthash="10065666">비밀번호리셋
                         </div>
-                        <div class="item" _msthash="3036358" _msttexthash="82082">선택3
+                        <div class="item" _msthash="3036358" _msttexthash="82082">-----------
                         </div>
                      </div>
                   </div>
                </div>
                
                <p style="padding-top: 40px; width: 250px; margin: 0 auto;">
-                  <font size="50pt">나의 프로필</font>
+                  <font size="50pt" style="color:#8D08AE;">나의 프로필</font>
                </p>
                <br>
-               <p style="width: 40%; margin: 0 auto;padding-right: 100px; font-size: 20px;">
+               <p style="width: 40%; margin: 0 auto;padding-right: 100px; font-size: 20px;color:#8D08AE;">
                   이름 : ${myDetailInfo.name}
                </p>
                <br>
@@ -77,7 +77,7 @@ select::-ms-expand {
                      <h1>자기 소개</h1>
                   <p class="hidden"></p>
                   <div class="field text">
-                     <textarea  style="border-radius: 0.5em; resize: none; width: 500px; height: 200px; font-size: 20px; background-color:#FAFAFA;" name="selfIntro" placeholder="자기소개" >${myDetailInfo.selfIntro}</textarea>
+                     <textarea  style="border: 1px solid #E5AFF3; border-radius: 0.5em; resize: none; width: 500px; height: 200px; font-size: 20px; background-color:#F1D9F7;" name="selfIntro" placeholder="자기소개" >${myDetailInfo.selfIntro}</textarea>
                   </div>
                </div>
 

@@ -16,19 +16,19 @@
                <ul class="notifications count-3">
 
                <li class="primary" >
-               <a class="notification" href="Client_2_Ting_main" style="background:#F7DDDD;"><br><i class="fas fa-heart fa-stack-2x" style="text-shadow: 3px 3px 3px #ED7B9F;"></i>
+               <a class="notification" href="Client_2_Ting_main" style="background:#B819DF;"><br><i class="fas fa-heart fa-stack-2x" style="text-shadow: 3px 3px 3px #ED7B9F;"></i>
                      <span class="inner"><br><span class="count"></span>
-                     <br><h2 style="color:#E73A71">오늘의 추천</h2></span></a></li>
+                     <br><h2 style="color:#F2DCF8">오늘의 추천</h2></span></a></li>
 
                <li class="primary">
-               <a class="notification" href="no/Chatting_test" style="background:#F7DDDD;" ><br><i class="icon-chat" style="text-shadow: 3px 3px 3px #ED7B9F;"></i>
+               <a class="notification" href="no/Chatting_test" style="background:#B819DF;" ><br><i class="icon-chat" style="text-shadow: 3px 3px 3px #ED7B9F;"></i>
                      <span class="inner"><br><span class="count"></span>
-                     <br><h2 style="color:#E73A71">나의 채팅</h2></span></a></li>
+                     <br><h2 style="color:#F2DCF8">나의 채팅</h2></span></a></li>
 
                <li class="primary">
-               <a class="notification" href="Client_5_like_Received"  style="background:#F7DDDD;"><br><i class="fas fa-thumbs-up fa-stack-2x" style="text-shadow: 3px 3px 3px #ED7B9F;"></i>
+               <a class="notification" href="Client_5_like_Received"  style="background:#B819DF;"><br><i class="fas fa-thumbs-up fa-stack-2x" style="text-shadow: 3px 3px 3px #ED7B9F;"></i>
                      <span class="inner"><br><span class="count">${likeReceive}</span>
-                     <br><h2 style="color:#E73A71">받은 좋아요 ♥${getlike}</h2></span></a></li>
+                     <br><h2 style="color:#F2DCF8">받은 좋아요 ★ ${getlike}개</h2></span></a></li>
 
                   
                </ul>
@@ -38,7 +38,7 @@
                      
                      <div class="box profileHeader">
                         <article class="profileInfo">
-                           <a class="imgWrp" target="_blank" style="background-color: #D8D8D8 ">
+                           <a class="imgWrp" target="_blank" style="background-color: #F2DCF8 ">
                            <img src="resources/upload/${myDetailInfo.photo}" alt=""></a>
                            <div class="intro">
                               <h1>닉네임 : ${myDetailInfo.nickname}</h1><br>
@@ -50,15 +50,15 @@
                            </div>
                         </article>
                         <nav class="profileMenu">
-                           <a id=""  class="font" href="Client_1_info_update" style="background:#F7DDDD;"><i class="icon-favoriteOutline" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#E73A71">프로필 수정하기</span></a>
+                           <a id=""  class="font" href="Client_1_info_update" style="background:#B819DF;"><i class="icon-favoriteOutline" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#F2DCF8">프로필 수정하기</span></a>
                           
-                           <a id=""  class="font" href="Client_1_info_updateCharming" style="background:#F7DDDD;"><i class="icon-kiss" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#E73A71">나의 매력포인트</span></a>
-                           <a id=""  class="font" href="Client_1_info_updateInterest" style="background:#F7DDDD;"><i class="icon-kiss" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#E73A71">나의 관심사</span></a>
+                           <a id=""  class="font" href="Client_1_info_updateCharming" style="background:#B819DF;"><i class="icon-kiss" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#F2DCF8">나의 특징</span></a>
+                           <a id=""  class="font" href="Client_1_info_updateInterest" style="background:#B819DF;"><i class="icon-kiss" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#F2DCF8">나의 관심사</span></a>
 
-                           <a id=""  class="font" href="Client_5_like_Sent" style="background:#F7DDDD;"><i class="icon-kiss" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#E73A71">내가 보낸 좋아요</span></a>
-                           <a id=""  class="font" href="PaymentList" style="background:#F7DDDD;"><i class="icon-gift" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#E73A71">결제 내역</span></a>
-                           <a id=""  class="font" href="selectQnAList" style="background:#F7DDDD;"><i class="icon-gift" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#E73A71">문의 내역</span></a>
-                        <!--    <a id=""  class="font" href="Client_1_ask_list.html" style="background:#F7DDDD;"><i class="icon-block" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#E73A71">문의 및 신고</span></a> -->
+                           <a id=""  class="font" href="Client_5_like_Sent" style="background:#B819DF;"><i class="icon-kiss" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#F2DCF8">내가 보낸 좋아요</span></a>
+                           <a id=""  class="font" href="PaymentList" style="background:#B819DF;"><i class="icon-gift" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#F2DCF8">결제 내역</span></a>
+                           <a id=""  class="font" href="selectQnAList" style="background:#B819DF;"><i class="icon-star" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#F2DCF8">문의 내역</span></a>
+                        <!--    <a id=""  class="font" href="Client_1_ask_list.html" style="background:#B819DF;"><i class="icon-block" style="text-shadow: 3px 3px 3px #ED7B9F;"> </i><span style="color:#F2DCF8">문의 및 신고</span></a> -->
                         </nav>
 
                      </div>
@@ -66,25 +66,25 @@
                         <h3>상세프로필</h3><br>
                         <div class="facts">
                            <div class="group">
-                              <span class="font">학력</span><p><span class="dd">${myDetailInfo.education}</span></p>
+                              <span class="font" style="color:#C946EA">학력</span><p><span class="dd">${myDetailInfo.education}</span></p>
                            </div>
                            <div class="group">
-                              <span class="font">체형</span><p><span class="dd">${myDetailInfo.bodyShape}</span></p>
+                              <span class="font" style="color:#C946EA">체형</span><p><span class="dd">${myDetailInfo.bodyShape}</span></p>
                            </div>
                            <div class="group">
-                              <span class="font">키</span><p><span class="dd">${myDetailInfo.height}cm</span></p>
+                              <span class="font" style="color:#C946EA">키</span><p><span class="dd">${myDetailInfo.height}cm</span></p>
                            </div>
                            <div class="group">
-                              <span class="font">성별</span><p><span class="dd">${myDetailInfo.gender}</span></p>
+                              <span class="font" style="color:#C946EA">성별</span><p><span class="dd">${myDetailInfo.gender}</span></p>
                            </div>
                            <div class="group">
-                              <span class="font">흡연</span><p><span class="dd">${myDetailInfo.smoke}</span></p>
+                              <span class="font" style="color:#C946EA">흡연</span><p><span class="dd">${myDetailInfo.smoke}</span></p>
                            </div>
                            <div class="group">
-                              <span class="font">음주</span><p><span class="dd">${myDetailInfo.drink}</span></p>
+                              <span class="font" style="color:#C946EA">음주</span><p><span class="dd">${myDetailInfo.drink}</span></p>
                            </div>
                            <div class="group">
-                              <span class="font">종교</span><p><span class="dd">${myDetailInfo.religion}</span></p>
+                              <span class="font" style="color:#C946EA">종교</span><p><span class="dd">${myDetailInfo.religion}</span></p>
                            </div>
 							<c:choose>
 								<c:when test="${myMbtiExplanation.mbtiName ne null}">
@@ -102,7 +102,7 @@
 						</div>
                      </div>
                      
-                    <div class="box profileFacts" style="background: #F9E2E9;">
+                    <div class="box profileFacts" style="background: #F2DCF8;">
 						<h1>당신의 캐릭터는?</h1>
 						<br>
 						<div class="left" style="width: 50%; float: left; box-sizing: border-box; padding: 10px 50px; text-align:center" >
@@ -116,7 +116,7 @@
 					</div>
 					
 
-					<div class="box profileFacts analysis" style="background: #F9E2E9;">
+					<div class="box profileFacts analysis" style="background: #F2DCF8;">
                   <h1>${myDetailInfo.nickname}님의 성격을 분석해보았어요!</h1>
                   <br>
                   <div class="facts">

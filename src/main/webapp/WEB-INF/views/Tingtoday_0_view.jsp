@@ -34,7 +34,7 @@
             <div align="center"
                style="width: 100%; height: 100%; border: 0px solid; border-radius: 2em;"
                class="col-md-12 section-heading text-center">
-               <font size="50pt">TingToday 게시판</font>
+               <font size="50pt" style="color:#8D08AE">JennyToday 게시판</font>
             </div>
          </div>
       </div>
@@ -48,7 +48,7 @@
       <div class="container">
          <div class=" section-heading text-center">
             <div align="center"
-               style="width: 70%; height: auto; border: 1px solid #E6E6E6; border-radius: 1em; margin: 0 auto;">
+               style="width: 70%; height: auto; border: 1px solid #F1D9F7; border-radius: 1em; margin: 0 auto;">
          
          
             <form method="post" action="updateBoard" enctype="multipart/form-data" >         
@@ -57,27 +57,28 @@
                   <p><input type="text" id="title" name="title" class="form-control mt-4 mb-2"  style="border:none"  value="${board.title}"  ></p>
                   
                   <div class="WriterInfo" style="padding-bottom: 15px">
-                     <a
+                    <!--  <a
                         href="#"
                         class="thumb"><img
                         src="https://t1.daumcdn.net/cfile/tistory/243FE450575F82662D"
                         alt="프로필 사진" width="80" height="80" align="left" style="margin-right: 20px"></a>
-               
+                -->
                      <div class="profile_area">
                         <div class="profile_info">
                            <div  style="padding-top: 10px">
                               <a id="" href="#" role="button"
-                                 class="nickname"> <h1>${board.nickName}</h1>
+                                 class="nickname"> <span  style="color:#8D08AE">글쓴이 : ${board.nickName}</span>
                               </a>
                            </div>
                         </div>
                         <div class="article_info" style="padding-top: 10px">
-                           <span class="date">${board.regdate}</span> <a href="#" onclick="askPopup();">신고하기</a>       
+                           <span class="date" style="color:#8D08AE">작성일 : ${board.regdate}</span><br> 
+                            <p> <a href="#" onclick="askPopup();" ><span style="color:#8D08AE">신고하기</span></a>
                            <%-- <span class="date"><c:out value="${today}"/></span> --%>
-                        </div>
-                     </div>
-                     <label onclick="btnLikeFun()" class="btnLike"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: inline-block; width: 20px; height: 20px; fill:black;"><g class="style-scope yt-icon"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-scope yt-icon"></path></g></svg>:<label class="like">${like }</label></label>
-     			  	 <label onclick="btnUnLikeFun()" class="btnUnLike"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: inline-block; width: 20px; height: 20px; fill:black;"><g class="style-scope yt-icon"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-scope yt-icon"></path></g></svg>:<label class="unLike">${unLike }</label></label>
+                        </div><br> 
+                     </div> 
+                     <label onclick="btnLikeFun()" class="btnLike"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: inline-block; width: 20px; height: 20px; fill:#8D08AE"><g class="style-scope yt-icon"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-scope yt-icon"></path></g></svg>:<label class="like">${like }</label></label>
+     			  	 <label onclick="btnUnLikeFun()" class="btnUnLike"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: inline-block; width: 20px; height: 20px; fill:#8D08AE;"><g class="style-scope yt-icon"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-scope yt-icon"></path></g></svg>:<label class="unLike">${unLike }</label></label>
      			  
                   </div>
                </div>
@@ -99,10 +100,10 @@
           </div>      
               <c:if test="${sessionScope.clientIdx eq board.clientIdx}">
 	            <br><input type="file" maxlength="60" size="40" style="left:-27%; position: relative;" name="file"><br>            
-	            <button type="submit" class="ui teal button">수정</button>
-	            <button type="button" class="ui teal button" onclick="location.href='deleteBoard?boardIdx=${board.boardIdx}'">삭제</button>   
+	            <button type="submit" class="ui purple button" style="color:#8D08AE">수정</button>
+	            <button type="button" class="ui purple button" onclick="location.href='deleteBoard?boardIdx=${board.boardIdx}'"style="color:#8D08AE">삭제</button>   
              </c:if>
-             <button type="button" class="ui teal button" onclick="location.href='Tingtoday_0_main'">목록</button>   
+             <button type="button" class="ui purple button" onclick="location.href='Tingtoday_0_main'" style="color:#F1D9F7">목록</button>   
       </form>          
                
     
@@ -122,8 +123,8 @@
                   <font size="3">${reply.content}</font>
                   <c:if test="${sessionScope.clientIdx eq reply.clientIdx}">
                   <div style="float:right">
-                     <button style="border: 0;outline: 0; background-color: #FFFFFF"><h3><a href="javascript:void(0)" onclick="modifyReply(this, '${board.boardIdx}', '${reply.commentIdx}', '${reply.content}', '${reply.nickName}');">수정</a></h3></button>
-                     <button style="border: 0;outline: 0; background-color: #FFFFFF"><h3><a href="deleteReply?commentIdx=${reply.commentIdx}&boardIdx=${board.boardIdx}">삭제</a></h3></button>
+                     <button style="border: 0;outline: 0; background-color: #FFFFFF"><h3><a href="javascript:void(0)" onclick="modifyReply(this, '${board.boardIdx}', '${reply.commentIdx}', '${reply.content}', '${reply.nickName}');"style="color:#8D08AE">수정</a></h3></button>
+                     <button style="border: 0;outline: 0; background-color: #FFFFFF"><h3><a href="deleteReply?commentIdx=${reply.commentIdx}&boardIdx=${board.boardIdx}"style="color:#8D08AE">삭제</a></h3></button>
                   </div>
                   </c:if>            
                </div>
@@ -138,14 +139,14 @@
      </div>          
      
      <form method="post" action="write" >
-         <div style="width: 90%; height: auto; border: 1px solid #E6E6E6; border-radius: 1em; margin-bottom: 40px">
+         <div style="width: 90%; height: auto; border: 1px solid #F1D9F7; border-radius: 1em; margin-bottom: 40px">
          <strong>
             <p><h4 style="width: 90%; text-align:left; margin: 0 auto;">${sessionScope.nickName}</h4></p>
           <textarea class="autosize" rows="1" onkeydown="resize(this)" onkeyup="resize(this)" placeholder="댓글을 남겨보세요" name="content" style=" width: 90%; height:17px; border: none;  resize: none; outline: none;"></textarea>
             <div style="width: 90%; text-align:right;">
                <input type="hidden" name="boardIdx" value="${board.boardIdx}">
                <input type="hidden" name="clientIdx" value="${sessionScope.clientIdx}">
-               <button type="submit" style="border: 0;outline: 0; background-color: #FFFFFF"><h3>등록</h3></button>
+               <button type="submit" style="border: 0;outline: 0; background-color: #ffffff; "><h3 style="color:#8D08AE">등록</h3></button>
             </div>
          </strong><!-- outline: none; -->
         </div>

@@ -54,8 +54,8 @@ public class EMAIL_Controller {
 				
 				messageHelper.setFrom("jennymaster2020@gmail.com");
 				messageHelper.setTo(vo.getEmail());
-				messageHelper.setSubject( "비밀번호 찾기 인증 이메일 입니다."); 
-				messageHelper.setText("\n - ting 비밀번호 찾기 - \n\n" + "비밀번호 찾기 인증번호는 [ " + cnum + " ] 입니다. "); 
+				messageHelper.setSubject( "[Jenny] 비밀번호 찾기 인증 이메일 입니다."); 
+				messageHelper.setText("\n - Jenny 비밀번호 찾기 - \n\n" + "비밀번호 찾기 인증번호는 [ " + cnum + " ] 입니다. "); 
 
 				mailSender.send(message);
 

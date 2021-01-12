@@ -7,7 +7,7 @@
 					<h2 class="to-animate">궁금하신 부분이 있나요?</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>언제나 ting은 열려있습니다!</h3>
+							<h3>언제나 Jenny에게 문의해주세요!</h3>
 						</div>
 					</div>
 				</div>
@@ -16,13 +16,12 @@
 				<div class="col-md-6 to-animate">
 					<h3>ting Info</h3>
 					<ul class="fh5co-contact-info">
-						<li class="fh5co-contact-address " >
+					<li class="fh5co-contact-address " style="color:#8D08AE">
 							<i class="icon-home" ></i>
 							부천시 소사구 심곡본동
 						</li>
-						<li><i class="icon-phone"></i> (123) 456-789</li>
-						<li><i class="icon-envelope"></i>ting_manager@gmail.com</li>
-						<li><i class="icon-globe"></i> <a href="#">ting.co</a></li>
+						<li style="color:#8D08AE"><i class="icon-phone"></i> 010 - 4243 - 1338 </li>
+						<li style="color:#8D08AE"><i class="icon-envelope"></i>jennymaster2020@gmail.com</li>
 					</ul>
 				</div>
 				
@@ -45,7 +44,7 @@
 						<textarea name="content" id="content" cols="30" rows="5" class="form-control" placeholder="내용"></textarea>
 					</div>
 					<div class="form-group ">
-						<input class="btn btn-primary btn-lg" value="문의 보내기" type="submit" onclick="alert('문의가 정상적으로 접수되었습니다.\n3~5일 이내에 회원님의 이메일로\n답변이 전송될 예정입니다.');">
+						<input class="btn btn-primary btn-lg" value="문의 보내기" type="submit" onclick="alert('문의가 정상적으로 접수되었습니다.\n3일 이내에 회원님의 이메일로\n답변이 전송될 예정입니다.');">
 					</div>
 				</div>
 				</form>

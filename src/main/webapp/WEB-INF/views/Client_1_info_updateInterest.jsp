@@ -19,19 +19,19 @@
 		<div class="container">
 			<div class=" section-heading text-center">
 				<div align="center"
-					style="width: 70%; height: auto; border: 1px solid #E6E6E6; border-radius: 1em; margin: 0 auto; margin-top: 50px; padding-bottom: 50px;">
+					style="width: 70%; height: auto; border: 1px solid #F1D9F7; border-radius: 1em; margin: 0 auto; margin-top: 50px; padding-bottom: 50px;">
 
 					<p style="padding-top: 40px; width: 250px; margin: 0 auto;">
-						<font size="50pt">나의 관심사</font>
-					</p>
+						<font size="50pt" style="color:#8D08AE;">나의 관심사</font>
+					</p><br>
 						<div class="grid cols-1 cols-m-2 form whiteForm factForm">
 						<section>
 							<div
-								style="height: auto; width: 100%; padding: 40px 0px 40px 0px; text-align: content; border-bottom: 1px solid #E6E6E6; border-top: 1px solid #E6E6E6;">
+								style="height: auto; width: 100%; padding: 40px 0px 40px 0px; text-align: content; border-bottom: 1px solid #F1D9F7; border-top: 1px solid #F1D9F7;">
 								<div style="text-align: center;">
 							<c:forEach items="${InterestList}" var="list">
-							<div class="ui checkbox" style="width:200px; height:50px; font-size:30px;">
-									<input type="checkbox" name="clientInterest" value='${list.interestIdx}' style="width:150px; height:50px; font-size:30px;"> 
+							<div class="ui checkbox" style="width:200px; height:50px; font-size:30px;color:#8D08AE;">
+									<input type="checkbox" name="clientInterest" value='${list.interestIdx}' style="width:150px; height:50px; font-size:30px;color:#8D08AE;"> 
 									<label>${list.interestName}</label>
 									
 							</div>
@@ -39,11 +39,9 @@
 							<div class="row" style="display: none">	
 						   </div>
 								</div>
-							</div> 
-								<button class="btn btn-primary sum" style="background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);color:#464646" id=""
-										style="padding: 15px 30px; font-size: 16px;"type="submit" >저장</button>
-								<button class="btn btn-primary"  style="background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);color:#464646" id=""
-										style="padding: 15px 30px; font-size: 16px;"  onclick="location.href='Client_0_main'">마이페이지</button>
+							</div> <br>
+								<button class="ui purple button" type="submit" >저장</button>
+								<button class="ui purple button"  onclick="location.href='Client_0_main'">마이페이지</button>
 						</section>
 						</div>
 					</div>

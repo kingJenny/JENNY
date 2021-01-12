@@ -31,11 +31,16 @@
 		        <div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="index.jsp" data-nav-section="about"><span>Jenny란?</span></a></li>
-						<li><a href="Main_company_1_team" data-nav-section="team"><span>이용방법</span></a></li>
+						<!-- <li><a href="Main_company_1_team" data-nav-section="team"><span>이용방법</span></a></li>
 						<li><a href="Tingtoday_0_main" data-nav-section="tingtoday"><span>JennyToday!</span></a></li>
 						<li><a href="Premium_0_main" data-nav-section="premium"><span>프리미엄</span></a></li>
 						<li><a href="Fun_0_main" data-nav-section="fun"><span>FUN</span></a></li>
-						<li><a href="" data-nav-section="contact"><span>문의</span></a></li>
+						<li><a href="" data-nav-section="contact"><span>문의</span></a></li> -->
+						<li><a href="#" data-nav-section="team"><span>이용방법</span></a></li>
+						<li><a href="#" data-nav-section="tingtoday"><span>JennyToday!</span></a></li>
+						<li><a href="#" data-nav-section="premium"><span>프리미엄</span></a></li>
+						<li><a href="#" data-nav-section="fun"><span>FUN</span></a></li>
+						<li><a href="#" data-nav-section="contact"><span>문의</span></a></li>
 						 <c:choose>
 						 
 							<c:when test="${sessionScope.UID eq null}">
@@ -321,28 +326,28 @@
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="resources/images/premium.png" alt="Image"></figure>
-						<h2>7 일</h2>
-						<p>하루 Jenny Card: 6개</p>
+						<h2>별 3 개</h2>
+						<p>★★★</p>
 						<p>+ 플러스 혜택</p>
-						<input class="btn btn-primary btn-lg go_premium" value="7,000 원" type="button" id="go_premium">
+						<input class="btn btn-primary btn-lg go_premium" value="3,000 원" type="button" id="go_premium">
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="resources/images/premium.png" alt="Image"></figure>
-						<h2>30 일</h2>
-						<p>하루 Jenny Card: 6개</p>
+						<h2>별 10 개</h2>
+						<p>★★★★★★★★★★</p>
 						<p>+ 플러스플러스 혜택</p>
-						<input class="btn btn-primary btn-lg go_premium" value="할인가 2,5000 원" type="button" id="go_premium">
+						<input class="btn btn-primary btn-lg go_premium" value="할인가 8,9000 원" type="button" id="go_premium">
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="resources/images/premium.png" alt="Image"></figure>
-						<h2>365 일</h2>
-						<p>하루 Jenny Card: 6개</p>
+						<h2>별 30 개</h2>
+						<p>★ x 30</p>
 						<p>+ 왕플러스 혜택</p>
-						<input class="btn btn-primary btn-lg go_premium" value="이벤트특가! 99,000원" type="button" id="go_premium">
+						<input class="btn btn-primary btn-lg go_premium" value="이벤트특가! 24,900원" type="button" id="go_premium">
 					</div>
 				</div>
 			</div>
@@ -418,28 +423,28 @@
 						<li style="color:#8D08AE"><i class="icon-envelope"></i>jennymaster2020@gmail.com</li>
 					</ul>
 				</div>
-				<div class="col-md-6 to-animate" >
-					<h3 >문의</h3>
-					<div class="form-group " >
-						<label for="name" class="sr-only">Name</label>
-						<input id="name" class="form-control" placeholder="이름" type="text" >
+				<form action="qna_add"  method="post">
+				<%-- 이자리는 로그인 한 후 회원의 아이값을 기준으로 문의 게시판을 작성
+					value=22 값은 변수로 변경 가능 
+					이름, 이메을 , 헨드폰도 모두 자동으로 불러 올영역 
+				 --%>
+				<input type="hidden" name="tingIdx" value="0">	
+				<input type="hidden" name="boardTypeIdx" value="0">					
+				<div class="col-md-6 to-animate">
+					<h3>문의</h3>
+					<div class="form-group ">
+						<label for="email" class="sr-only">제목</label> 
+						<input id="title" class="form-control" placeholder="제목" type="text" name="title">
 					</div>
 					<div class="form-group ">
-						<label for="email" class="sr-only">Email</label>
-						<input id="email" class="form-control" placeholder="이메일" type="email" >
+						<label for="message" class="sr-only">내용</label>
+						<textarea name="content" id="content" cols="30" rows="5" class="form-control" placeholder="내용"></textarea>
 					</div>
 					<div class="form-group ">
-						<label for="phone" class="sr-only">Phone</label>
-						<input id="phone" class="form-control" placeholder="핸드폰" type="text" >
+						<input class="btn btn-primary btn-lg" value="문의 보내기" type="submit" onclick="alert('문의가 정상적으로 접수되었습니다.\n3일 이내에 회원님의 이메일로\n답변이 전송될 예정입니다.');">
 					</div>
-					<div class="form-group ">
-						<label for="message" class="sr-only">Message</label>
-						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="내용" ></textarea>
-					</div>
-					<div class="form-group ">
-						<input class="btn btn-primary btn-lg" value="문의 보내기" type="submit" id="send_ask" >
-					</div>
-					<div>
+				</div>
+				</form>
 				</div>
 			</div>
 		</div>

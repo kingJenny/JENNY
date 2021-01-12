@@ -4,16 +4,17 @@
     <header style="background-image: linear-gradient(-225deg, #C55ADF 0%, #620978 100%);">
 			<div class="container">
 			   <div class="navbar-header">
-		         <a class="navbar-brand" href="index.jsp" ><span style="color:black;font-family: 'Jua', sans-serif;">ting</span></a> 
+		         <a class="navbar-brand" href="index.jsp" ><span style="color:black;font-family: 'Jua', sans-serif;">Jenny</span></a> 
 		       </div>
 		        <div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="Client_2_Ting_main"><span style="color:#F5DBFC;font-family: 'Jua', sans-serif;">오늘의 추천</span></a></li>
-						<li><a href="Tingtoday_0_main"><span style="color:#F5DBFC;font-family: 'Jua', sans-serif;">팅투데이</span></a></li>
-						<li><a href="Premium_0_main"><span style="color:#F5DBFC;font-family: 'Jua', sans-serif;">프리미엄</span></a></li>
-						<li><a href="Fun_0_main"><span style="color:#F5DBFC;font-family: 'Jua', sans-serif;">FUN</span></a></li>
-						<li><a href="Client_6_question"><span style="color:#F5DBFC;font-family: 'Jua', sans-serif;">문의</span></a></li>
-		
+					<li class="active"><a href="index.jsp" data-nav-section="about" style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><span>Jenny란?</span></a></li>
+						<li><a href="Main_company_1_team" data-nav-section="team" style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><span>이용방법</span></a></li>
+						<li><a href="Tingtoday_0_main" data-nav-section="tingtoday" style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><span>JennyToday!</span></a></li>
+						<li><a href="Premium_0_main" data-nav-section="premium" style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><span>프리미엄</span></a></li>
+						<li><a href="Fun_0_main" data-nav-section="fun" style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><span>FUN</span></a></li>
+						<li><a href="Client_6_question" data-nav-section="contact" style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><span>문의</span></a></li>
+					
 						 <c:choose>
 							<c:when test="${sessionScope.UID eq null}">
 							<li><button class="ui purple button" id="login">로그인</button></li>

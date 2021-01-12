@@ -41,19 +41,19 @@
     <script>
     $(function(){
         var IMP = window.IMP; // 생략가능
-        IMP.init('imp63155918'); // 'iamport' 대신 부여받은 "가맹점 식별코드"를 사용
+        IMP.init('imp92117632'); // 'iamport' 대신 부여받은 "가맹점 식별코드"를 사용
         var msg;
         
         IMP.request_pay({
             pg : 'kakaopay',
             pay_method : 'card',
             merchant_uid : 'merchant_' + new Date().getTime(),
-            name : 'Tingtoday 결제',
+            name : ' Jenny 결제',
             amount : <%=totalPrice%>,
             buyer_name : '<%=goodName%>',
             buyer_tel : '<%=clientIdx%>',
             buyer_postcode : '123-456',
-            //m_redirect_url : 'http://www.naver.com'
+            
         }, function(rsp) {
             if ( rsp.success ) {
                 //[1] 서버단에서 결제정보 조회를 위해 jQuery ajax로 imp_uid 전달하기

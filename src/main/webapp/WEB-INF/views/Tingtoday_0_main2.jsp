@@ -66,7 +66,7 @@
          <!--게시판 해더-->
          <header>
          
-            <h1 align="center">TingToday 게시판</h1>
+            <h1 align="center">JennyToday 게시판</h1>
          </header>
          <!--게시판 해더-->
          <br>

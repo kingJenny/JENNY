@@ -5,7 +5,7 @@
 <br><br>
 <!--게시판 해더-->
 	<header>
-	<h1 align="center">♡문의 내역♡</h1>
+	<h1 style="text-align: center;border-right: 1px solid ;color:#8D08AE; ">★ 문의 내역 ★</h1>
 	</header>
 <!--게시판 해더-->
 <br><br>
@@ -19,21 +19,21 @@
 
 				</div>
 	<div class = "TingToday_list contents-wrap">
-		<table class="table table-striped"style="text-align: center; border: 1px solid #dddddd;" width="50">
+		<table class="table table-striped"style="text-align: center; border: 1px solid #F1D9F7;" width="50">
 			<thead>
 				<tr>	
-							<th scope="cols" style="text-align: center;border-right: 1px solid #eeeeee;">문의번호</th>					
-							<th scope="cols" style="text-align: center;border-right: 1px solid #eeeeee;">글제목</th>
-							<th scope="cols" style="text-align: center;border-right: 1px solid #eeeeee;">작성일자</th>							
+							<th scope="cols" style="text-align: center;border-right: 1px solid #F1D9F7 ;color:#8D08AE;">문의번호</th>					
+							<th scope="cols" style="text-align: center;border-right: 1px solid #F1D9F7 ;color:#8D08AE;">글제목</th>
+							<th scope="cols" style="text-align: center;border-right: 1px solid #F1D9F7 ;color:#8D08AE;">작성일자</th>							
 						</tr>
 						</thead>
 				<c:forEach items="${qnaList}" var="qnaList">		
 						<tr>
-							<td scope="row" style="text-align: center;border-right: 1px solid #eeeeee;"><h3>${qnaList.boardIdx}</h3></td>
+							<td scope="row" style="text-align: center;border-right: 1px solid #F1D9F7 ;color:#8D08AE;"><h3>${qnaList.boardIdx}</h3></td>
 							 
-							 <td scope="row" style="text-align: center;border-right: 1px solid #eeeeee;"><a href="QnAList_view?boardIdx=${qnaList.boardIdx}"><h3>${qnaList.title }</h3></a></td>	
+							 <td scope="row" style="text-align: center;border-right: 1px solid #F1D9F7 ;color:#8D08AE;"><a href="QnAList_view?boardIdx=${qnaList.boardIdx}"><h3>${qnaList.title }</h3></a></td>	
 							
-							<td scope="row" style="text-align: center;border-right: 1px solid #eeeeee;"><h3>
+							<td scope="row" style="text-align: center;border-right: 1px solid #F1D9F7 ;color:#8D08AE;"><h3>
 								<fmt:formatDate pattern="yyyy/MM/dd" value="${qnaList.regDate }"/>
 							</h3></td>				
 						</tr>	

@@ -19,7 +19,7 @@
 <br><br>
 <!--게시판 해더-->
 	<header>
-	<h1 align="center">♡내가 좋아하는 이성♡</h1>
+	<h1 align="center">★내가 친구하고 싶은 Jenny★</h1>
 	</header>
 <!--게시판 해더-->
 <br><br>
@@ -27,8 +27,8 @@
 	<div class = "TingToday_list contents-wrap">
 		<table class="table table-striped"style="text-align: center; border: 1px solid #dddddd;" width="100">
 			<thead>
-				<tr style="background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);">						
-					<th style="text-align: center;border-right: 1px solid #eeeeee; ">보낸 좋아요 목록</th>	
+				<tr style="background-image: linear-gradient(-225deg, #790695 0%, #F1D9F7 100%);">						
+					<th style="text-align: center;border-right: 1px solid ;color:#F9F2FB; ">보낸 좋아요 목록</th>	
 															
 				</tr>
 			</thead>								
@@ -43,13 +43,13 @@
 				  <a style="color:red;">&nbsp;&nbsp;${likeSend.clientDetailInfo.nickname}</a>님에게 좋아요를 보냈어요! 
 				  
                   <c:if test="${likeSend.likeReceive.successOrNot eq 1}">
-			      <a style="color:gray; ">&nbsp;&nbsp;&nbsp;&nbsp;두 분은 매칭되었어요♡</a>
+			      <a style="color:gray; ">&nbsp;&nbsp;&nbsp;&nbsp;두 분은 오늘부터 친구! ★</a>
 			       </c:if>
                   <c:if test="${likeSend.likeReceive.successOrNot eq 0 and (nowDate - sendTime)-1 eq 0}">
 			      <a style="color:gray; ">&nbsp;&nbsp;&nbsp;&nbsp;오늘 좋아요를 보냈어요! </a>
                   </c:if>
                   <c:if test="${likeSend.likeReceive.successOrNot eq 0 and (nowDate - sendTime)-1 ne 0}">
-			      <a style="color:gray; ">&nbsp;&nbsp;&nbsp;&nbsp;좋아요를 보낸지${(nowDate - sendTime)-1}일이 지났어요....훌쩍 </a>
+			      <a style="color:gray; ">&nbsp;&nbsp;&nbsp;&nbsp;좋아요를 보낸지${(nowDate - sendTime)-1}일이 지났어요. </a>
 			       </c:if>
 				  </td>
 				 </tr>

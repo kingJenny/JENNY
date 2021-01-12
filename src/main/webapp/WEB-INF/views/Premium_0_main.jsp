@@ -52,13 +52,13 @@
 			<c:forEach items="${GoodsList}" var="goods">	
 				<form class="pay" method="post">			
 						<div class="col-md-4">
-							 <div class="fh5co-person text-center to-animate" style="background-image: linear-gradient(-225deg, #C55ADF 0%, #620978 100%);border-radius: 1em;border:2px solid  #620978 ">
+							 <div class="fh5co-person text-center to-animate" style="background-image: linear-gradient(-225deg, #C55ADF 0%, #ECBEF8 100%);border-radius: 1em;border:2px solid  #ECBEF8 ">
                         <input type="hidden" value="${sessionScope.clientIdx}" name="clientIdx">
                         <input type="hidden" value="${goods.goodIdx}" name="goodIdx">       							
 								<input type="hidden" value="resources/images/img_7.jpg" name="poto">
-								<div class="label-popular" style="border-radius: 1em;border:0px solid  #E6E6E6 ">50%할인</div>
+							<!-- 	<div class="label-popular" style="border-radius: 1em;border:0px solid  #E6E6E6 ">50%할인</div> -->
 								<input type="hidden" name="heartcnt" value="★${ goods.heartcnt}개">								
-								<img src="resources/images/buyheart.jpg" width="100px;" height="100px;">
+								<img src="resources/images/premium.png" width="100px;" height="100px;">
 								<hr>
                         <p><h2> ${goods.goodName }</h2></p> 
 								<p><h3>★${ goods.heartcnt}개</h3></p>

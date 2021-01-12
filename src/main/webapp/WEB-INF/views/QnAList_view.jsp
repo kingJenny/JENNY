@@ -48,7 +48,7 @@
       <div class="container">
          <div class=" section-heading text-center">
             <div align="center"
-               style="width: 50%; height: auto; border: 1px solid #E6E6E6; border-radius: 1em; margin: 0 auto;">
+               style="width: 50%; height: auto; border: 1px solid #F1D9F7; border-radius: 1em; margin: 0 auto;">
          
                
                <div style="height: auto; width: 90%; text-align:left; padding-bottom: 10px">
@@ -64,7 +64,7 @@
                      </div>
                   </div>
                </div>
-               <div  style="height: auto; width: 90%; padding:40px 0px 40px 0px ; text-align:left; border-bottom: 1px solid #E6E6E6; border-top: 1px solid #E6E6E6;">
+               <div  style="height: auto; width: 90%; padding:40px 0px 40px 0px ; text-align:left; border-bottom: 1px solid #F1D9F7; border-top: 1px solid #F1D9F7;">
                
             <textarea class="form-control" rows="6" name="content" style="border:none" > ${board.content}</textarea><br><br><br>
        

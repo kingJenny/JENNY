@@ -27,8 +27,8 @@
 	<div class = "TingToday_list contents-wrap">
 		<table class="table table-striped"style="text-align: center; border: 1px solid #dddddd;" width="100">
 			<thead>
-				<tr style="background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);">						
-					<th style="text-align: center;border-right: 1px solid #eeeeee; ">받은 좋아요 목록</th>	
+				<tr style="background-image: linear-gradient(-225deg, #790695 0%, #F1D9F7 100%);">						
+					<th style="text-align: center;border-right: 1px solid ;color:#F9F2FB; ">받은 좋아요 목록</th>	
 															
 				</tr>
 			</thead>								
@@ -43,7 +43,7 @@
 				  <a style="color:gray; "></a>
 			       </c:if>
 				  <c:if test="${likeReceive.successOrNot eq 1}"> 
-				  <a style="color:gray; ">&nbsp;&nbsp;&nbsp;&nbsp;두분은 매칭되었어요♡</a>
+				  <a style="color:gray; ">&nbsp;&nbsp;&nbsp;&nbsp;두분은 오늘부터 Jenny 친구!</a>
 			       </c:if>
 				  </td>
 				 </tr>

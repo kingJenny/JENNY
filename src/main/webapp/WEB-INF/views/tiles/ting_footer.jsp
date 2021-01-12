@@ -5,8 +5,8 @@
         <div class="three wide column">
           <h4 class="ui inverted header" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">company</h4>
           <div class="ui inverted link list">
-            <a href="Main_company_1_team" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">ting Team</a>
-            <a href="index.jsp" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">ting이란?</a>
+           <!--  <a href="Main_company_1_team" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">ting Team</a> -->
+            <a href="index.jsp" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">Jenny란?</a>
             <a href="Premium_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">premium</a>
             <a href="Client_2_Ting_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">문의하기</a>
           </div>
@@ -14,19 +14,19 @@
         <div class="three wide column">
           <h4 class="ui inverted header" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">Services</h4>
           <div class="ui inverted link list">
-            <a href="Tingtoday_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">ting Today</a>
+            <a href="Tingtoday_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">Jenny Today</a>
             <a href="Fun_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">MBTI</a>
-            <a href="Fun_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">연애테스트</a>
-            <a href="Fun_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">이상형테스트</a>
+            <a href="Fun_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">우정테스트</a>
+            <!-- <a href="Fun_0_main" class="item" style="color:#F5DBFC;font-family: 'Jua', sans-serif;">이상형테스트</a> -->
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header" style="color:#F5DBFC;">ting Info</h4>
+          <h4 class="ui inverted header" style="color:#F5DBFC;">Jenny Info</h4>
           <ul class="fh5co-contact-info">
-						<li class="fh5co-contact-address "  style="color:#F5DBFC;font-family: 'Jua', sans-serif;">
-						<i class="icon-home"  style="color:#F5DBFC;"></i>&nbsp;부천시 소사구 심곡본동</li>
-						<li style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><i class="icon-phone" style="color:#F5DBFC;"></i>&nbsp;(123) 456-789</li>
-						<li style="color:#F5DBFC;font-family: 'Jua', sans-serif;"><i class="icon-envelope" style="color:#F5DBFC;"></i>&nbsp;ting_manager@gmail.com</li>
+						<li class="fh5co-contact-address "  style="color:#F5DBFC;font-family: 'Jua', sans-serif;list-style:none;">
+						<i class="icon-home"  style="color:#F5DBFC; "></i>&nbsp;&nbsp;부천시 소사구 심곡본동</li><p>
+						<li style="color:#F5DBFC;font-family: 'Jua', sans-serif;list-style:none;"><i class="icon-phone" style="color:#F5DBFC;list-style:none;"></i>&nbsp;&nbsp;010-4243-1338</li><p>
+						<li style="color:#F5DBFC;font-family: 'Jua', sans-serif;list-style:none;"><i class="icon-envelope" style="color:#F5DBFC;list-style:none;"></i>&nbsp;&nbsp;jennymaster2020r@gmail.com</li>
 			</ul>
         </div>
       </div>
