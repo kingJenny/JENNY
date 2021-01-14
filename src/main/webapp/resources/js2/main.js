@@ -110,7 +110,7 @@ const goResult = () => {
   const desc = document.querySelector('.res');
 
   mbti=infoList[grade].name;
-  pTitle.innerHTML = u_name.value + ' 님의 연애능력 점수는...';
+  pTitle.innerHTML = u_name.value + ' 님의 사교 점수는...';
   res_point.innerHTML = point + '점';
   pin.style.marginLeft = infoList[grade].mLeft;
   res_img.src = img_url;

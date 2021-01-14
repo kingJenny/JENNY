@@ -325,7 +325,7 @@
 				  
 		   $.ajax({
 				type : 'GET',
-				url : 'http://192.168.0.11:9000/adminPage/classification?callback',
+				url : 'http://127.0.0.1:8000/adminPage/classification?callback',
 		        dataType:'jsonp',
 		        jsonp: 'callback',
 				data : {'selfIntro' : $('.selfIntro').val()},
@@ -343,10 +343,10 @@
 					$('#character').val(jsonData["character_type"]);
 				},
 				error : function(){
-					$(".mycharacter").append("<img src='resources/character/naturalmeet.JPG' width='250'>")
-					$(".mycharacter").append("<br><h1>자만추 늑대형</h1>")
-					$(".mycharacter").append("<h3>운명적인 만남이 있다고 믿는 자만추형 늑대에요.<br> 소개팅은 싫다면서 시크하게 반응하지만 <br>외롭다는 말을 입에 달고 사는 겉바속촉 스타일.<br> 연인과의 자연스러운 만남으로 소소한 행복이 이어지길 바래요.</h3>")
-					$(".mycharacter").append("<h2> 당신에게 어울리는 타입을 만나보아요</h2>")
+					$(".mycharacter").append("<img src='resources/character/성실.JPG' width='250'>")
+					$(".mycharacter").append("<br><h1>성실한 곰돌이</h1>")
+					$(".mycharacter").append("<h3>성실하게 모든 것에 임하는 사람이군요.<br> 같은 곰돌이 타입을 많이 추천해드릴게요 <br> 다른 성격이 어떻게 다른지 맞추어보는 재미!<br> 좋은 Jenny 만나기를 응원합니다!</h3>")
+					$(".mycharacter").append("<h2> 인생 Jenny 만나기를 응원합니다!</h2>")
 					$('#character').val('naturalmeet');
 				}
 			})

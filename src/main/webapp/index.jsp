@@ -177,7 +177,7 @@
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/myboy1.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="resources/images/myboy1.jpg" alt="Image" class="img-responsive">
+						<img src="resources/images/Jennylogo2.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>1. 회원가입  </h2>
 						<span>간단한 이메일 가입!</span>
@@ -187,7 +187,7 @@
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/myboy2.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="resources/images/myboy2.jpg" alt="Image" class="img-responsive">
+						<img src="resources/images/Jennylogo2.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>2. 매칭을 위한 정보입력 </h2>
 						<span>나와 원하는 친구타입을 알려주세요!</span>
@@ -199,7 +199,7 @@
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/myboy1.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="resources/images/myboy1.jpg" alt="Image" class="img-responsive">
+						<img src="resources/images/Jennylogo2.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>3. 매일 오후 2시 20분 추천 완료! </h2>
 						<span>서로 좋아요를 누른다면 대화가 열려요!</span>
@@ -209,7 +209,7 @@
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/myboy4.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="resources/images/myboy4.jpg" alt="Image" class="img-responsive">
+						<img src="resources/images/Jennylogo2.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>★ 내 정보가 상대에게 공개되나요? </h2>
 						<span>걱정마세요! 나이, 취미, 자기소개만 공개됩니다!<p>다른 취향은 매칭이 성사되면 서로에게만 공개!</span>
@@ -219,7 +219,7 @@
 				
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/myboy2.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="resources/images/myboy2.jpg" alt="Image" class="img-responsive">
+						<img src="resources/images/Jennylogo2.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>★ 매칭됐지만 잘 맞지 않아요 ㅠ.ㅠ </h2>
 						<span>걱정마세요! 대화창을 나간다면 연결고리는 사라져요!<p>대신 우리는 Jenny니까 인사하고나가는 센스!</span>
@@ -229,7 +229,7 @@
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/myboy1.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="resources/images/myboy1.jpg" alt="Image" class="img-responsive">
+						<img src="resources/images/Jennylogo2.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>★ 대화 매너가 너무 없으면 어떡하죠? </h2>
 						<span>Jenny들은 그러지 않을 것이라 굳게 믿지만..<p>신고 기능이 있어요. 검토 후 블랙리스트 처리합니다!</span>

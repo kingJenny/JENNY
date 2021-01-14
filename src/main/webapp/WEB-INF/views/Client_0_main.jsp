@@ -89,7 +89,7 @@
 							<c:choose>
 								<c:when test="${myMbtiExplanation.mbtiName ne null}">
 									<div class="group">
-										<span class="font">MBTI</span>
+										<span class="font" style="color:#C946EA">MBTI</span>
 										<p>
 											<span class="dd">${myMbtiExplanation.mbtiName}</span>
 										</p>

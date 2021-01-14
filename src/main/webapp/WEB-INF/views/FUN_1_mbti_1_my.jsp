@@ -16,8 +16,8 @@
 		<script src="resources/js/modernizr-2.6.2.min.js"></script>
 		<script
 		  src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-		<script src="resources/js/semantic.min.js"></script>
 		
+  
   <link rel="stylesheet" href="resources/css2/reset.css">
   <link rel="stylesheet" href="resources/css2/animation.css">
   <link rel="stylesheet" href="resources/css2/main.css">
@@ -33,8 +33,8 @@
     <section id="welcome" class="container1">
       <div id="title-box">
         <h1 class="title">
-          MBTI기반<br> Disney Character만들기
-          <br>+연애능력점수 알아보기
+          MBTI<br>  나의 성격을 알아보아요.
+          
         </h1>
         <h3 class="sec-tit">
         </h3>
@@ -44,8 +44,8 @@
       <hr class="w-line">
       <p class="w-line">
         <span id="p-tit">이 테스트로 ...</span><br>   
-        나와 닮은 디즈니 캐릭터는 누구인지 알아보세요!<br>
-        <br>연애능력점수로 나의 연애 가능성도 알 수 있어요!
+        나와 닮은 디즈니 캐릭터까지 알 수 있어요!<br>
+        
       
       </p>
       <hr class="w-line">
@@ -103,8 +103,7 @@
     </section>
   
   </div>
-  <script language="JavaScript" src="resources/js2/data.js" charset="UTF-8"></script>
-  <script language="JavaScript" src="resources/js2/main.js" charset="UTF-8"></script>
+  
   
 	<!---------------------------------- Footer start ---------------------------------->
 
@@ -121,7 +120,9 @@
 	<script src="resources/js/jquery.countTo.js"></script>
 	<script src="resources/js/jquery.magnific-popup.min.js"></script>
 	<script src="resources/js/magnific-popup-options.js"></script>
-
+	<script src="resources/js/semantic.min.js"></script>
+	<script language="JavaScript" src="resources/js2/data.js" charset="UTF-8"></script>
+	<script language="JavaScript" src="resources/js2/main.js" charset="UTF-8"></script>
 	<script src="resources/js/main.js"></script>
 
 	</body>
