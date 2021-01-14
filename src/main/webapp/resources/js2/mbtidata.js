@@ -46,7 +46,7 @@ const qnaList = [
     q: '7. 친구와 약속을 잡은 당신, 무엇을 하고싶은지?',
     a: [
       { answer: 'a. 핫플에서 사진도 찍고 맛집 탐방', score: 1 , mval:71},
-      { answer: 'b. 집에서 편하게 TV 보며 배달, score: 5, mval:72 }
+      { answer: 'b. 집에서 편하게 TV 보며 배달', score: 5, mval:72 }
     ]
   },
   {

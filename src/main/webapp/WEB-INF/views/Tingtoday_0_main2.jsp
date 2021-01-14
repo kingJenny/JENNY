@@ -121,9 +121,9 @@
             <!--페이지-->
 
 
-            <button class="ui teal button" onclick="location.href='Tingtoday_0_top3'" style="right:-78%;  position: relative;">인기순위</button>
+            <button class="ui purple button" onclick="location.href='Tingtoday_0_top3'" style="right:-78%;  position: relative;">인기순위</button>
             <c:if test="${sessionScope.clientIdx ne null}">
-            <button class="ui teal button" style="right:-78%;  position: relative;" onclick="location.href='Tingtoday_0_write'">글쓰기</button>
+            <button class="ui purple button" style="right:-78%;  position: relative;" onclick="location.href='Tingtoday_0_write'">글쓰기</button>
             </c:if>
          </div>
    </div>

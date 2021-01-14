@@ -79,13 +79,13 @@
 			<div class="TingToday_list">
 				<div class="list_start">
 						<div class="list">
-							<h3 align="center">팅투데이 인기키워드<h3>
+							<h3 align="center">JennyToday 인기키워드<h3>
 							<a href="http://192.168.0.4:9000/static//assets/html/4.wordcnt 생성.html">
 							<img src="http://192.168.0.4:9000/static//assets/images/wordcnt/wordcntTest.png"
 								style="width: 600px; height: 500px; margin: 80px;"></a>
 						</div>
 						
-						<h2 align="center">TingToday 인기게시물 Top3 📸<h2>
+						<h2 align="center">JennyToday 인기게시물 Top3 📸<h2>
 						
 						<c:forEach items="${boardList}" var="board">
 							<div class="list_detail">

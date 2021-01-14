@@ -3,7 +3,7 @@
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-
+			<link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
 			<link rel="stylesheet" href="resources/css/animate.css">
 			<link rel="stylesheet" href="resources/css/simple-line-icons.css">
 			<link rel="stylesheet" href="resources/css/magnific-popup.css">

@@ -49,7 +49,7 @@
 <section id="fh5co-testimonials" data-section="testimonials">
 
    
-   <div class="row"  style="border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+   <div class="row"  style="border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 		<div class="col-md-12 section-heading text-center">
 			<h2>Q1</h2>
 		</div>
@@ -57,11 +57,11 @@
 			<h1>당신의 이름은?</h1>
 		</div>
 		<div class="options__ouvgd text-center">
-			<input type="text" class="ui inverted red name" style="width:200px; height: 50px; font-size:20px; margin-bottom: 50px;" value=""><br>
-			<button class="ui inverted red button nameclick detailinfo" style="width:100px; font-size:20px;">다음</button>
+			<input type="text" class="ui inverted purple name" style="width:200px; height: 50px; font-size:20px; margin-bottom: 50px;" value=""><br>
+			<button class="ui inverted purple button nameclick detailinfo" style="width:100px; font-size:20px;">다음</button>
 		</div>
    </div>
-   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 		<div class="col-md-12 section-heading text-center">
 			<h2>Q2</h2>
 		</div>
@@ -72,10 +72,10 @@
          <input type="text" class="ui inverted red nickname"  style="width:200px; height: 50px; font-size:20px; margin-bottom: 20px;" value=""> 
 					<button class="compact ui button" style="float: center; margin: 3px" type="button" id="nickChk" onclick="fn_nickChk();" value="N">중복확인</button>
 					<div class="check_font" id="nick_check"></div><br>
-         <button class="ui inverted red button nicknameclick detailinfo" style="width:100px; font-size:20px;">다음</button>
+         <button class="ui inverted purple button nicknameclick detailinfo" style="width:100px; font-size:20px;">다음</button>
       </div>
    </div>  
-  <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+  <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
       <div class="col-md-12 section-heading text-center">
          <h2>Q3</h2>
       </div>
@@ -83,27 +83,27 @@
 		   <h1>당신의 성별은?</h1>
 	   </div>
 	   <div class="options__ouvgd text-center">
-		   <button class="ui inverted red button gender detailinfo" style="width:400px; font-size:20px;" value="남성">남성</button><br>
-		   <button class="ui inverted red button gender detailinfo" style="width:400px; font-size:20px;" value="여성">여성</button> 
+		   <button class="ui inverted purple button gender detailinfo" style="width:400px; font-size:20px;" value="남성">남성</button><br>
+		   <button class="ui inverted purple button gender detailinfo" style="width:400px; font-size:20px;" value="여성">여성</button> 
 	   </div>
    </div>  
 
- <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+ <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 		 <div class="col-md-12 section-heading text-center" style="padding-top: 50px">
 		 
 			<font size="50px">Q4</font>
 		</div>
 			<p><h1 style="text-align: center;">당신의 직업은?</h1></p><br>
 		<div class="options__ouvgd text-center">
-			<button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="주부">주부</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="교사">교사</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="무직">무직</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="학생">학생</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="직장인">직장인</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="영업직">영업직</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="설비직">설비직</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="전문직">전문직</button><br>
-		   <button class="ui inverted red button job detailinfo" style="width:400px; font-size:20px;" value="기타">기타</button><br>
+			<button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="주부">주부</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="교사">교사</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="무직">무직</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="학생">학생</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="직장인">직장인</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="영업직">영업직</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="설비직">설비직</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="전문직">전문직</button><br>
+		   <button class="ui inverted purple button job detailinfo" style="width:400px; font-size:20px;" value="기타">기타</button><br>
 		</div>
 						<!-- 	<div class="filebox bs3-primary preview-image">
 								<input class="upload-name" value="파일선택" disabled="disabled"
@@ -113,7 +113,7 @@
 		
    </div> 
 	
-	<div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+	<div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 		<div class="col-md-12 section-heading text-center" style="padding-top: 50px">
 			<font size="50px">Q5</font>
 		</div>
@@ -132,13 +132,13 @@
 					</select>
 				</div>
 							</div><br>
-			<button class="ui inverted red button ageclick detailinfo" style="width:100px; font-size:20px;margin: 0 auto;">다음</button>
+			<button class="ui inverted purple button ageclick detailinfo" style="width:100px; font-size:20px;margin: 0 auto;">다음</button>
 		</div>
 	</div>
 
 	
    
-   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 		<div class="col-md-12 section-heading text-center">
 			<h2>Q6</h2>
 		</div>
@@ -146,15 +146,15 @@
 			<h1>당신의 종교는?</h1>
 		</div>
 		<div class="options__ouvgd text-center">
-			<button class="ui inverted red button religion detailinfo" style="width:400px; font-size:20px;" value="무교">무교</button><br>
-			<button class="ui inverted red button religion detailinfo" style="width:400px; font-size:20px;" value="기독교">기독교</button><br>
-			<button class="ui inverted red button religion detailinfo" style="width:400px; font-size:20px;" value="천주교">천주교</button><br>
-			<button class="ui inverted red button religion detailinfo" style="width:400px; font-size:20px;" value="불교">불교</button><br>
-			<button class="ui inverted red button religion detailinfo" style="width:400px; font-size:20px;" value="그외">그외</button><br>
+			<button class="ui inverted purple button religion detailinfo" style="width:400px; font-size:20px;" value="무교">무교</button><br>
+			<button class="ui inverted purple button religion detailinfo" style="width:400px; font-size:20px;" value="기독교">기독교</button><br>
+			<button class="ui inverted purple button religion detailinfo" style="width:400px; font-size:20px;" value="천주교">천주교</button><br>
+			<button class="ui inverted purple button religion detailinfo" style="width:400px; font-size:20px;" value="불교">불교</button><br>
+			<button class="ui inverted purple button religion detailinfo" style="width:400px; font-size:20px;" value="그외">그외</button><br>
 		</div>
 	</div>
 
-  <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+  <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 	   <div class="col-md-12 section-heading text-center">
 		   <h2>Q7</h2>
 	   </div>
@@ -162,16 +162,16 @@
 		   <h1>당신의 학력은?</h1>
 	   </div>
 	   <div class="options__ouvgd text-center">
-		<button class="ui inverted red button education detailinfo" style="width:400px;  font-size:20px;" value="고등학교">고등학교</button><br>
-		   <button class="ui inverted red button education detailinfo" style="width:400px; font-size:20px;" value="전문대">전문대</button><br>
-		   <button class="ui inverted red button education detailinfo" style="width:400px; font-size:20px;" value="대학교">대학교</button><br>
-		   <button class="ui inverted red button education detailinfo" style="width:400px; font-size:20px;" value="석사">석사</button><br>
-		   <button class="ui inverted red button education detailinfo" style="width:400px; font-size:20px;" value="박사">박사</button><br>
-		   <button class="ui inverted red button education detailinfo" style="width:400px; font-size:20px;" value="기타">기타</button>
+		<button class="ui inverted purple button education detailinfo" style="width:400px;  font-size:20px;" value="고등학교">고등학교</button><br>
+		   <button class="ui inverted purple button education detailinfo" style="width:400px; font-size:20px;" value="전문대">전문대</button><br>
+		   <button class="ui inverted purple button education detailinfo" style="width:400px; font-size:20px;" value="대학교">대학교</button><br>
+		   <button class="ui inverted purple button education detailinfo" style="width:400px; font-size:20px;" value="석사">석사</button><br>
+		   <button class="ui inverted purple button education detailinfo" style="width:400px; font-size:20px;" value="박사">박사</button><br>
+		   <button class="ui inverted purple button education detailinfo" style="width:400px; font-size:20px;" value="기타">기타</button>
 	   </div>
    </div>
    
-	<div class="row" style="display: none;   border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+	<div class="row" style="display: none;   border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 		<div class="col-md-12 section-heading text-center" style="padding-top: 50px">
 			<font size="50px">Q8</font>
 		</div>
@@ -188,12 +188,12 @@
 					<%} %>
 				</select>
 			</div><br>
-			<button class="ui inverted red button heightclick detailinfo" style="width:100px; font-size:20px;margin: 0 auto;">다음</button>
+			<button class="ui inverted purple button heightclick detailinfo" style="width:100px; font-size:20px;margin: 0 auto;">다음</button>
 		</div>
 	</div>   
    
    
-   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
+   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">
 	   <div class="col-md-12 section-heading text-center">
 		   <h2>Q9</h2>
 	   </div>
@@ -201,19 +201,19 @@
 		   <h1>당신의 체형은?</h1>
 	   </div>
 	   <div class="options__ouvgd text-center">
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="마른">마른</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="슬림">슬림</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="보통">보통</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="다소 볼륨">다소 볼륨</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="다소 근육">다소 근육</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="글래머">글래머</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="근육질">근육질</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="통통">통통</button><br>
-		   <button class="ui inverted red button bodyShape detailinfo" style="width:400px; font-size:20px;"value="우람">우람</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="마른">마른</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="슬림">슬림</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="보통">보통</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="다소 볼륨">다소 볼륨</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="다소 근육">다소 근육</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="글래머">글래머</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="근육질">근육질</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="통통">통통</button><br>
+		   <button class="ui inverted purple button bodyShape detailinfo" style="width:400px; font-size:20px;"value="우람">우람</button><br>
    </div>
    </div>
 
-   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">	
+   <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">	
 	   <div class="col-md-12 section-heading text-center">
 		   <h2>Q10</h2>
 	   </div>
@@ -221,14 +221,14 @@
 		   <h1>당신의 주량은?</h1>
 	   </div>
 	   <div class="options__ouvgd text-center">
-		   <button class="ui inverted red button drink detailinfo" style="width:400px; font-size:20px;"value="안 마심">안 마심</button><br>
-		   <button class="ui inverted red button drink detailinfo" style="width:400px; font-size:20px;"value="1병 이하">1병 이하</button><br>
-		   <button class="ui inverted red button drink detailinfo" style="width:400px; font-size:20px;"value="1병 - 2병">1병 - 2병</button><br>
-		   <button class="ui inverted red button drink detailinfo" style="width:400px; font-size:20px;"value="2병 초과">2병 초과</button><br>
+		   <button class="ui inverted purple button drink detailinfo" style="width:400px; font-size:20px;"value="안 마심">안 마심</button><br>
+		   <button class="ui inverted purple button drink detailinfo" style="width:400px; font-size:20px;"value="1병 이하">1병 이하</button><br>
+		   <button class="ui inverted purple button drink detailinfo" style="width:400px; font-size:20px;"value="1병 - 2병">1병 - 2병</button><br>
+		   <button class="ui inverted purple button drink detailinfo" style="width:400px; font-size:20px;"value="2병 초과">2병 초과</button><br>
 	   </div>
    </div>
 
-    <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #E6E6E6; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">	
+    <div class="row" style=" display: none;  border-radius: 1em;border:2px solid  #EAB2F8; width:600px; height:auto; margin: 0 auto; padding-bottom: 50px;">	
 	   <div class="col-md-12 section-heading text-center">
 		   <h2>Q11</h2>
 	   </div>
@@ -236,10 +236,10 @@
 		   <h1>당신의 흡연습관은?</h1>
 	   </div>
 	   <div class="options__ouvgd text-center">
-		   <button class="ui inverted red button smoke detailinfo" style="width:400px; font-size:20px;"value="비흡연"">비흡연</button><br>
-		   <button class="ui inverted red button smoke detailinfo" style="width:400px; font-size:20px;"value="가끔">가끔</button><br>
-		   <button class="ui inverted red button smoke detailinfo" style="width:400px; font-size:20px;"value="종종">종종</button><br>
-		   <button class="ui inverted red button smoke detailinfo" style="width:400px; font-size:20px;"value="매일">매일</button><br>
+		   <button class="ui inverted purple button smoke detailinfo" style="width:400px; font-size:20px;"value="비흡연"">비흡연</button><br>
+		   <button class="ui inverted purple button smoke detailinfo" style="width:400px; font-size:20px;"value="가끔">가끔</button><br>
+		   <button class="ui inverted purple button smoke detailinfo" style="width:400px; font-size:20px;"value="종종">종종</button><br>
+		   <button class="ui inverted purple button smoke detailinfo" style="width:400px; font-size:20px;"value="매일">매일</button><br>
 	   </div>
    </div>
    
@@ -255,7 +255,7 @@
 				<textarea class="autosize selfIntro" rows="1"
 					placeholder=" 자기소개를 써주세요"
 				></textarea>
-				<button class="ui inverted red button selfIntroclick detailinfo"
+				<button class="ui inverted purple button selfIntroclick detailinfo"
 					style="width: 100px; font-size: 20px;">다음</button>
 				<br>
 				<br>
@@ -270,7 +270,7 @@
 					
 				</div>
 				<div class="options__ouvgd text-center">
-					<button class="ui inverted red button check" style="width:150px; font-size:20px;">확인하기</button>
+					<button class="ui inverted purple button check" style="width:150px; font-size:20px;">확인하기</button>
 				</div>
 			</div>
 
@@ -304,7 +304,7 @@
 			<input type="hidden" name="longitude" id="longitude" value="0">
 			<input type="hidden" name="selfIntro" id="selfIntro" value="">
 			<input type="hidden" name="character" id="character" value="">
-			<button class="btn btn-primary" type="submit" >저장</button>
+			<button class="btn btn-primary" type="submit" style="background-color:purple;">저장</button>
 	   </form>
 	   </div>
    </div>
@@ -345,7 +345,7 @@
 				error : function(){
 					$(".mycharacter").append("<img src='resources/character/성실.JPG' width='250'>")
 					$(".mycharacter").append("<br><h1>성실한 곰돌이</h1>")
-					$(".mycharacter").append("<h3>성실하게 모든 것에 임하는 사람이군요.<br> 같은 곰돌이 타입을 많이 추천해드릴게요 <br> 다른 성격이 어떻게 다른지 맞추어보는 재미!<br> 좋은 Jenny 만나기를 응원합니다!</h3>")
+					$(".mycharacter").append("<h3>성실하게 모든 것에 임하는 사람이군요.<br> 같은 곰돌이 타입을 많이 추천해드릴게요 <br> 다른 성격이 어떻게 다른지 맞추어보는 재미!<br> </h3>")
 					$(".mycharacter").append("<h2> 인생 Jenny 만나기를 응원합니다!</h2>")
 					$('#character').val('naturalmeet');
 				}

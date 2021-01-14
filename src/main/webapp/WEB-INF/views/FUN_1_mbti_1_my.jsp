@@ -54,7 +54,7 @@
       </div>
       <p class="check-name warning"></p>
       <div class="start-wrap">
-        <button class="start">시 작</button>
+        <button class="start" >시 작</button>
       </div>
     </section>
     <section id="qna" class="container1">
@@ -91,11 +91,12 @@
       <div class="caution"> 
         <p>
           결과에 대한 자세한 설명은 마이페이지에서 볼 수 있어요!
-         
-     <button class="btn btn-sm"  style="background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);color:#464646"  onclick="location.href='Client_0_main'">마이페이지</button>
+         <!-- background-image: linear-gradient(45deg, #8d08ae 0%, #8d08ae 99%, #8d08ae 100%); -->
+     <button class="btn btn-sm"  style="background-color:#8d08ae" onclick="location.href='Client_0_main'">마이페이지</button>
      <br><br>
         </p>
       </div>
+      
       <hr>
  
       <hr>
@@ -121,9 +122,11 @@
 	<script src="resources/js/jquery.magnific-popup.min.js"></script>
 	<script src="resources/js/magnific-popup-options.js"></script>
 	<script src="resources/js/semantic.min.js"></script>
-	<script language="JavaScript" src="resources/js2/data.js" charset="UTF-8"></script>
-	<script language="JavaScript" src="resources/js2/main.js" charset="UTF-8"></script>
+	
+	
 	<script src="resources/js/main.js"></script>
+	<script language="JavaScript" src="resources/js2/mbti.js" charset="UTF-8"></script>
+	<script language="JavaScript" src="resources/js2/mbtidata.js" charset="UTF-8"></script>
 
 	</body>
 </html>

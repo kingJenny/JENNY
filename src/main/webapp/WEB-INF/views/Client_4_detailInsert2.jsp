@@ -6,7 +6,7 @@
 <html class="no-js">
    <head>
 
-	   <title>기본폼	</title>
+	   <title>Jenny</title>
 
 		   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		   <meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
@@ -36,17 +36,18 @@
    
    <div class="row">	
 	   <div class="col-md-12 section-heading text-center">
-		   <h2>당신을 어필해보아요!</h2>
+		   <h2>Jenny를 알려주세요!</h2>
 	   </div>
 	   <div class="col-md-05 section-heading text-center">
-		   <h1>당신의 얼굴이 궁금해요 사진을 올려주세요!</h1>
+		   <h1>프로필 사진을 올려주세요!</h1>
 	   </div>
 	   <div class="options__ouvgd text-center">
 	   	<form method="POST" action="updatePhotoClientDetailInfo" enctype="multipart/form-data">
 		   <input type="file" id="file" name="file" accept="image/*" onchange="setThumbnail(event);" style="width:200px;
 		   		 height: 50px; font-size:20px; margin-left: 700px " maxlength="500"/>
 		    <div id="image_container"></div> 
-		    <button class="btn btn-primary" type="submit" >저장</button>
+		    <button class="btn btn-primary" type="submit" style="background-color:purple;" >저장</button>
+		    
 		</form>
 		    <script> 
 		    function setThumbnail(event) { 

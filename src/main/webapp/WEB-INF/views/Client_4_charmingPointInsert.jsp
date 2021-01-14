@@ -6,7 +6,7 @@
 <html class="no-js">
    <head>
 
-	   <title>기본폼	</title>
+	   <title>Jenny	</title>
 
 		   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		   <meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
@@ -51,7 +51,7 @@
 			</c:forEach>
 			
 			<div>
-				<button class="sum ui inverted red button">다음</button>
+				<button class="sum ui inverted purple button">다음</button>
 			</div>
 		</div>
 	</div>

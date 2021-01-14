@@ -53,7 +53,7 @@
 <br><br>
 <!--게시판 해더-->
 	<header>
-	<h1 align="center">TingToday 게시판</h1>
+	<h1 align="center">JennyToday 게시판</h1>
 	</header>
 <!--게시판 해더-->
 <br><br>
@@ -66,7 +66,7 @@
 				<textarea class="form-control" rows="10" name="content" placeholder="내용을 입력해주세요" required></textarea>
 			</div>
 				<input type="file" maxlength="60" size="40" name="file"><br>									
-			<button type="submit" class="ui teal button">저장</button>			
+			<button type="submit" class="ui purple button">저장</button>			
 		</form>	
 	</div>
 	</div>

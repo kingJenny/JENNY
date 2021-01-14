@@ -9,7 +9,7 @@
                style="width: 70%; height: auto; border: 1px solid #E6E6E6; border-radius: 1em; margin: 0 auto;padding-top: 30px;">
          <div class="row">
             <div class="col-md-4 section-heading text-center to-animate" style="margin: 0 auto;">
-               <h2 class="to-animate">♡♥<span style="color:#ED4B4E ">두근두근</span> 너를 보여줘♥♡</h2>
+               <h2 class="to-animate">★<span style="color:#ED4B4E ">두근두근</span> 오늘의 Jenny★</h2>
                <font size="6px;"> ${clientDetailInfo.charactervo.character_Name}</font>
                   <h3>
                     ${clientDetailInfo.charactervo.character_Explanation}
@@ -44,13 +44,12 @@
 							<div class="text-center to-animate">
 								<div class="cnt">
 									<h2 class="rainbow-text">
-										<span><i class="fas fa-people-arrows fa-2x"></i>&nbsp;꿈에
-											그리던 이상형이 찾아왔어요&nbsp;<i class="fas fa-heartbeat fa-2x"></i></span>
+										<span><i class="fas fa-people-arrows fa-2x"></i>&nbsp;Jenny가 찾아왔어요!&nbsp;<i class="fas fa-heartbeat fa-2x"></i></span>
 									</h2>
 									<h1 style="color: gray; display: inline;">취향저격 :</h1>
 									&nbsp;&nbsp;
 									<h1 style="color: red; display: inline;">80%</h1>
-									<h2 style="color: #ff5675">당신의 이상형 정보와 일치</h2>
+									<h2 style="color: #ff5675">정보가 더 궁금하다면? 좋아요 보내기!</h2>
 									<br>
 									<div style="float: left; text-align: center; margin-left: 50px;">
 										<h2 style="color: #ff5675">
@@ -76,7 +75,7 @@
 											<input type="hidden" name="clientIdx"
 												value="${clientDetailInfo.clientIdx}" /> <input
 												class="btn btn-lg likesend"
-												style="background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); color: #464646; top: -200px;"
+												style="background-color:#8d08ae; color: #464646; top: -200px;"
 												value="좋아요 보내기" type="submit">
 										</form>
 									</div>
@@ -95,7 +94,7 @@
                      <div style="border: none;">
                         <div class="cnt">
                         <div style="width:300px; height:auto ;float: left; margin-left: 30px;">                       
-                        <h2><span><i class="fas fa-user-friends fa-2x"></i></span>&nbsp;당신과 함께 하고 싶어요&nbsp;</h2>
+                        <h2><span><i class="fas fa-user-friends fa-2x"></i></span>&nbsp;친구 하고 싶어요&nbsp;</h2>
                            <c:forEach items="${clientInterest}" var="clientInterest">
                         <div  style="float:left; padding-left: 50px; padding-right:20px;margin-top: 10px;"><h2 style="color:#ff5675;">${clientInterest.interest.interestName}</h2></div>
                         </c:forEach>

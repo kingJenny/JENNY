@@ -15,6 +15,7 @@
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
+	<link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
 	  <script language="javascript">
 	  function showPopup() { window.open("paymentWindow.jsp", "a", "width=600, height=800, left=650, top=100"); }
 	  </script>

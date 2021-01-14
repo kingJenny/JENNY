@@ -9,6 +9,7 @@
 	<meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" href="resources/css/animate.css">
 	<link rel="stylesheet" href="resources/css/simple-line-icons.css">
@@ -64,7 +65,7 @@
 	  <button class="compact ui  button" style = "float:right;margin:0;">메인으로</button><br><br><br>
         <div class="field">
             <input type="checkbox" class="agree_compul_1" id="agree_compul_1">&nbsp;<span style="color:#8d08ae;">동의합니다. </span><span style="color:red;">(필수)</span>
-			<br><div  style="overflow:scroll;background-color:white;width:100%; height:30%;padding:10px;">본 회원약관은 팅(이하'갑'이라 한다)이 운영하는 인터넷 관련 서비스(이하'서비스'라 한다)를 이용함에 있어 관리자와 이용자(이하'회원'이라 한다)의 권리,의무 및 책임사항을 규정함으로 목적으로한다.</div>
+			<br><div  style="overflow:scroll;background-color:white;width:100%; height:30%;padding:10px;">본 회원약관은 Jenny(이하'갑'이라 한다)이 운영하는 인터넷 관련 서비스(이하'서비스'라 한다)를 이용함에 있어 관리자와 이용자(이하'회원'이라 한다)의 권리,의무 및 책임사항을 규정함으로 목적으로한다.</div>
         </div>
 		 <div class="field">
             <input type="checkbox" class="agree_compul_1" id="agree_compul_1">&nbsp;<span style="color:#8d08ae;">동의합니다. </span><span style="color:red;">(필수)</span>

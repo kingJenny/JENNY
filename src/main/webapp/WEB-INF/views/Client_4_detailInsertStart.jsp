@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 
 
-		<title>가입축하!	</title>
+		<title>Jenny	</title>
 
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		   <meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
@@ -31,10 +31,10 @@
 <section id="fh5co-testimonials" data-section="testimonials">
 	<div class="row">	
 		<div class="col-md-12 section-heading text-center">
-			<h2>가입을 축하드립니다! 나머지 프로필을 완성해보세요!</h2>
+			<h2>Jenny가 되신 것을 환영해요! 프로필 입력을 통해 인생친구 찾아요!</h2>
 		</div>
 		<div class="options__ouvgd text-center">			
-			<button class="ui inverted red button" style="width:400px; font-size:20px;" onClick="location.href='Client_4_detailInsert1'">프로필 입력하기</button> <br>
+			<button class="ui inverted purple button" style="width:400px; font-size:20px;" onClick="location.href='Client_4_detailInsert1'">프로필 입력하기</button> <br>
 		</div>
 	</div>
 
